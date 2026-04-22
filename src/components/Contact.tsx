@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 import { MapContainer, TileLayer, CircleMarker } from 'react-leaflet';
+import { Mail } from 'lucide-react';
 import 'leaflet/dist/leaflet.css';
 // removed unused lucide-react icons
 
@@ -23,7 +24,7 @@ const FacebookIcon = () => (
 const Contact: React.FC = () => {
   const { t } = useTranslation();
   const formRef = useRef<HTMLFormElement>(null);
-  
+
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
@@ -45,35 +46,36 @@ const Contact: React.FC = () => {
 
     // NOTE: User must replace these placeholders with their actual EmailJS IDs
     emailjs.sendForm(
-      'YOUR_SERVICE_ID', 
-      'YOUR_TEMPLATE_ID', 
-      formRef.current, 
+      'YOUR_SERVICE_ID',
+      'YOUR_TEMPLATE_ID',
+      formRef.current,
       'YOUR_PUBLIC_KEY'
     )
-    .then(() => {
+      .then(() => {
         setSubmitStatus('success');
         formRef.current?.reset();
         setCaptchaAnswer('');
         setNum1(Math.floor(Math.random() * 10) + 1);
         setNum2(Math.floor(Math.random() * 10) + 1);
-    })
-    .catch((error) => {
+      })
+      .catch((error) => {
         console.error('FAILED...', error.text);
         setSubmitStatus('error');
-    })
-    .finally(() => {
+      })
+      .finally(() => {
         setIsSubmitting(false);
-    });
+      });
   };
 
   const valdobbiadeneCoords: [number, number] = [45.9000, 11.9961];
+  const emailAddress = 'no.bressan@gmail.com';
 
   return (
-    <section id="contact" className="py-24 bg-brand-ivory relative">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+    <section className="py-24 bg-brand-ivory relative">
+      <div id="contact" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
         <div className="text-center mb-16">
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -85,45 +87,45 @@ const Contact: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 bg-white rounded-3xl shadow-xl overflow-hidden border border-brand-pink/30">
-          
+
           {/* Form Side */}
           <div className="p-10 md:p-14">
             <form ref={formRef} onSubmit={sendEmail} className="space-y-6">
               <div>
                 <label className="block text-sm font-medium text-brand-grey mb-2">{t('contact.name')}</label>
-                <input 
-                  type="text" 
-                  name="user_name" 
-                  required 
+                <input
+                  type="text"
+                  name="user_name"
+                  required
                   className="w-full px-4 py-3 border border-brand-border rounded-lg focus:ring-2 focus:ring-brand-gold focus:border-transparent outline-none transition-all bg-brand-ivory/50"
                 />
               </div>
-              
+
               <div>
                 <label className="block text-sm font-medium text-brand-grey mb-2">{t('contact.email')}</label>
-                <input 
-                  type="email" 
-                  name="user_email" 
-                  required 
+                <input
+                  type="email"
+                  name="user_email"
+                  required
                   className="w-full px-4 py-3 border border-brand-border rounded-lg focus:ring-2 focus:ring-brand-gold focus:border-transparent outline-none transition-all bg-brand-ivory/50"
                 />
               </div>
 
               <div>
                 <label className="block text-sm font-medium text-brand-grey mb-2">{t('contact.phone')}</label>
-                <input 
-                  type="tel" 
-                  name="user_phone" 
+                <input
+                  type="tel"
+                  name="user_phone"
                   className="w-full px-4 py-3 border border-brand-border rounded-lg focus:ring-2 focus:ring-brand-gold focus:border-transparent outline-none transition-all bg-brand-ivory/50"
                 />
               </div>
 
               <div>
                 <label className="block text-sm font-medium text-brand-grey mb-2">{t('contact.message')}</label>
-                <textarea 
-                  name="message" 
-                  rows={4} 
-                  required 
+                <textarea
+                  name="message"
+                  rows={4}
+                  required
                   className="w-full px-4 py-3 border border-brand-border rounded-lg focus:ring-2 focus:ring-brand-gold focus:border-transparent outline-none transition-all bg-brand-ivory/50 resize-none"
                 ></textarea>
               </div>
@@ -132,9 +134,9 @@ const Contact: React.FC = () => {
                 <label className="block text-sm font-medium text-brand-grey mb-2">
                   Verifica / Verification: {num1} + {num2} = ?
                 </label>
-                <input 
-                  type="number" 
-                  required 
+                <input
+                  type="number"
+                  required
                   value={captchaAnswer}
                   onChange={(e) => setCaptchaAnswer(e.target.value)}
                   className="w-full px-4 py-3 border border-brand-border rounded-lg focus:ring-2 focus:ring-brand-gold focus:border-transparent outline-none transition-all bg-brand-ivory/50"
@@ -142,8 +144,8 @@ const Contact: React.FC = () => {
                 />
               </div>
 
-              <button 
-                type="submit" 
+              <button
+                type="submit"
                 disabled={isSubmitting}
                 className="w-full bg-brand-charcoal text-white py-4 rounded-lg font-semibold hover:bg-brand-charcoal/90 transition-colors disabled:opacity-70"
               >
@@ -167,8 +169,18 @@ const Contact: React.FC = () => {
           <div className="bg-brand-charcoal text-white flex flex-col">
             <div className="p-10 md:p-14 flex-grow">
               <h3 className="text-2xl font-serif mb-8 text-brand-gold">Noemi Bressan</h3>
-              
+
               <div className="space-y-6">
+                <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
+                  <p className="text-sm text-white/50 mb-3 uppercase tracking-wider">Email</p>
+                  <a
+                    href={`mailto:${emailAddress}`}
+                    className="text-lg text-white hover:text-brand-gold transition-colors break-all"
+                  >
+                    {emailAddress}
+                  </a>
+                </div>
+
                 <div className="pt-8">
                   <p className="text-sm text-white/50 mb-4 uppercase tracking-wider">Social</p>
                   <div className="flex space-x-4">
@@ -184,11 +196,11 @@ const Contact: React.FC = () => {
             </div>
 
             {/* Map */}
-            <div className="h-64 w-full relative z-0">
-              <MapContainer 
-                center={valdobbiadeneCoords} 
-                zoom={10} 
-                scrollWheelZoom={false} 
+            <div className="h-80 md:h-[28rem] w-full relative z-0">
+              <MapContainer
+                center={valdobbiadeneCoords}
+                zoom={9}
+                scrollWheelZoom={false}
                 zoomControl={false}
                 dragging={false}
                 className="h-full w-full opacity-80 mix-blend-luminosity"
@@ -197,12 +209,12 @@ const Contact: React.FC = () => {
                   attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
                   url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
-                <CircleMarker 
-                  center={valdobbiadeneCoords} 
-                  radius={12} 
-                  color="var(--color-brand-gold)" 
-                  fillColor="var(--color-brand-gold)" 
-                  fillOpacity={0.6} 
+                <CircleMarker
+                  center={valdobbiadeneCoords}
+                  radius={12}
+                  color="var(--color-brand-gold)"
+                  fillColor="var(--color-brand-gold)"
+                  fillOpacity={0.6}
                 />
               </MapContainer>
             </div>

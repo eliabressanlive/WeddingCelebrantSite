@@ -28,7 +28,7 @@ const Slideshow: React.FC = () => {
 
   return (
     <section className="py-12 bg-emerald-50/70">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-9xl mx-auto px-4 sm:px-6 lg:px-8">
         <Swiper
           style={{
             '--swiper-theme-color': '#059669',
@@ -36,8 +36,8 @@ const Slideshow: React.FC = () => {
             '--swiper-pagination-color': '#059669',
           } as React.CSSProperties}
           modules={[Navigation, Pagination, Autoplay]}
-          spaceBetween={30}
-          slidesPerView={1}
+          spaceBetween={80}
+          slidesPerView={3}
           navigation
           pagination={{ clickable: true }}
           autoplay={{ delay: 4000, disableOnInteraction: false }}
@@ -49,10 +49,10 @@ const Slideshow: React.FC = () => {
         >
           {randomizedImages.map((filename, idx) => (
             <SwiperSlide key={idx} className="flex justify-center items-center overflow-hidden rounded-2xl shadow-lg border-2 border-emerald-200/60">
-              <img 
-                src={`${import.meta.env.BASE_URL}images/${filename}`} 
-                alt={`Photo ${idx}`} 
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" 
+              <img
+                src={`${import.meta.env.BASE_URL}images/${filename}`}
+                alt={`Photo ${idx}`}
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </SwiperSlide>
           ))}

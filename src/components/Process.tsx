@@ -9,7 +9,7 @@ const Process: React.FC = () => {
     { num: '01', titleKey: 'step1.title', descKey: 'step1.desc' },
     { num: '02', titleKey: 'step2.title', descKey: 'step2.desc' },
     { num: '03', titleKey: 'step3.title', descKey: 'step3.desc' },
-    { num: '04', titleKey: 'step5.title', descKey: 'step5.desc' },
+    { num: '04', titleKey: 'step4.title', descKey: 'step4.desc' },
   ];
 
   return (

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .container {
+      width: 200px;
+      height: 400px;
+      background-color: gray;
+      /* Image is 400x100, very wide */
+      background-image: linear-gradient(to bottom, red 0px, red 20px, black 20px, black 80px, blue 80px, blue 100px);
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 20px;
+      border: 1px solid white;
+    }
+
+    .box1 {
+      background-position: center 50%;
+    }
+
+    .box2 {
+      background-position: center calc(50% - 100px);
+    }
+
+    .box3 {
+      background-position: center calc(50% + 100px);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container box1" style="background-image: url('https://via.placeholder.com/800x200')">50%</div>
+  <div class="container box2" style="background-image: url('https://via.placeholder.com/800x200')">50% - 100px</div>
+  <div class="container box3" style="background-image: url('https://via.placeholder.com/800x200')">50% + 100px</div>
+</body>
+
+</html>

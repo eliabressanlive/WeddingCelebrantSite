@@ -7,13 +7,18 @@ const Hero: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative h-[100svh] min-h-[100svh] md:h-screen md:min-h-screen flex items-center justify-center overflow-hidden bg-brand-charcoal">
       <div
-        className="absolute inset-0 bg-cover bg-no-repeat"
+        className="
+            absolute inset-0 
+            bg-cover 
+            bg-no-repeat
+            bg-[position:center_calc(50%-160px)]
+            scale-[1.24] 
+            max-[1500px]:bg-[position:center_calc(50%-124px)]
+            max-[1500px]:scale-[1.36]"
         style={{
-          backgroundImage: `url("${import.meta.env.BASE_URL}hero-bg.jpg")`,
-          backgroundPosition: 'center calc(50% - 170px)',
-          transform: 'scale(1.2)'
+          backgroundImage: `url("${import.meta.env.BASE_URL}hero-bg.jpg")`
         }}
       >
         <div className="absolute inset-0 bg-brand-charcoal/40" /> {/* Dark Overlay */}

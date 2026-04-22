@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <div className="flex-shrink-0 cursor-pointer">
-            <Link to="home" smooth={true} duration={400} className={`font-serif text-2xl font-bold ${scrolled ? 'text-brand-charcoal' : 'text-white'}`}>
+            <Link to="home" smooth={true} duration={300} className={`font-serif text-2xl font-bold ${scrolled ? 'text-brand-charcoal' : 'text-white'}`}>
               Noemi Bressan
             </Link>
           </div>
@@ -50,25 +50,25 @@ const Navbar: React.FC = () => {
                 to={section}
                 spy={true}
                 smooth={true}
-                offset={-80}
-                duration={400}
+                offset={-60}
+                duration={300}
                 className={`cursor-pointer text-sm font-medium tracking-wide uppercase hover:text-brand-gold transition-colors ${scrolled ? 'text-brand-charcoal' : 'text-white'}`}
                 activeClass="text-brand-gold"
               >
                 {t(`nav.${section}`)}
               </Link>
             ))}
-            
+
             {/* Language Selector */}
             <div className="relative">
-              <button 
+              <button
                 onClick={() => setLangMenuOpen(!langMenuOpen)}
                 className={`flex items-center space-x-1 hover:text-brand-gold transition-colors ${scrolled ? 'text-brand-charcoal' : 'text-white'}`}
               >
                 <Globe size={18} />
                 <span className="text-sm font-medium uppercase">{i18n.language}</span>
               </button>
-              
+
               {langMenuOpen && (
                 <div className="absolute right-0 mt-2 w-24 bg-white shadow-lg rounded-md overflow-hidden">
                   {languages.map(lang => (
@@ -104,15 +104,15 @@ const Navbar: React.FC = () => {
                 to={section}
                 spy={true}
                 smooth={true}
-                offset={-80}
-                duration={400}
+                offset={-60}
+                duration={300}
                 onClick={() => setIsOpen(false)}
                 className="cursor-pointer text-lg font-medium text-center"
               >
                 {t(`nav.${section}`)}
               </Link>
             ))}
-            
+
             <div className="flex justify-center space-x-4 pt-4 border-t border-brand-pink/30">
               {languages.map(lang => (
                 <button
