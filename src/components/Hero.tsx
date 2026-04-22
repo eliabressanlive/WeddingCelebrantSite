@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
             bg-[position:center_calc(50%-160px)]
             scale-[1.24] 
             max-[1500px]:bg-[position:center_calc(50%-124px)]
-            max-[1500px]:scale-[1.36]"
+            max-[1500px]:scale-[1.40]"
         style={{
           backgroundImage: `url("${import.meta.env.BASE_URL}hero-bg.jpg")`
         }}
