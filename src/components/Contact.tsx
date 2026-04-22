@@ -3,7 +3,6 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 import { MapContainer, TileLayer, CircleMarker } from 'react-leaflet';
-import { Mail } from 'lucide-react';
 import 'leaflet/dist/leaflet.css';
 // removed unused lucide-react icons
 
