@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "process": "Process",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Celebrating Love, Your Way",
+    "subtitle": "Unique and personalized wedding ceremonies in the Prosecco hills and beyond.",
+    "cta": "Start Your Journey"
+  },
+  "about": {
+    "title": "My Story",
+    "bio1": "Hello, I am Noemi Bressan! I am a celebrant based in Valdobbiadene, in the heart of the beautiful Prosecco hills in Italy. I specialize in creating deeply personal wedding ceremonies for couples from all over the world.",
+    "bio2": "Passionate about love and storytelling, I firmly believe that every couple deserves a ceremony as unique as their love story. Empathy, availability, flexibility, and a few useful tips to make that day truly perfect are my priorities.",
+    "languages": "Language Skills",
+    "languagesDesc": "Language should never be a barrier to love. I am a native Italian speaker with degrees in English and German. I also speak Spanish fluently, allowing me to craft and deliver your perfect ceremony in multiple languages."
+  },
+  "services": {
+    "title": "My Services",
+    "wedding": {
+      "title": "Wedding Ceremonies",
+      "desc": "Shared design of the ceremony. From symbolic to official legal rites, I convey the emotion of your stories and life journey. Fully customizable texts and rituals in any of the languages I speak."
+    },
+    "other": {
+      "title": "Other Services",
+      "t1": "Tour Leader",
+      "d1": "I organize events and guided tours through the stunning Prosecco Hills and Treviso.",
+      "t2": "Event Presenter",
+      "d2": "Host for book presentations, or corporate and formal events."
+    },
+    "addons": {
+      "title": "Optional Add-ons",
+      "desc": "Location scouting, direct contact with witnesses, willingness to travel out of region/country. I can provide contacts for excellent professionals like sound engineers, DJs, and jazz bands."
+    }
+  },
+  "process": {
+    "title": "How We Will Work Together",
+    "step1": {
+      "title": "Booking Request",
+      "desc": "The first step is to check if I am available for your wedding using the dedicated form. I will schedule a pre-reservation and send all information within one day."
+    },
+    "step2": {
+      "title": "Let's Get in Touch!",
+      "desc": "We will arrange an obligation-free video call to see if I'm the right person for you. Once decided, we confirm the booking with a deposit. I will also guide you through legal requirements."
+    },
+    "step3": {
+      "title": "The Preparation",
+      "desc": "My mission is to provide the best experience. We will define readings, vows, and rituals together so that everything is a meaningful reflection of you both."
+    },
+    "step4": {
+      "title": "The Ceremony",
+      "desc": "It's your big day! I will be there at least 45 minutes prior. I will handle every aspect from the moment the march starts until the signing of the certificate."
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "reviewsTitle": "What couples say",
+    "q1": "Can you perform legally binding weddings?",
+    "a1": "Yes! I am available to perform both symbolic ceremonies and official civil ceremonies with a delegation.",
+    "q2": "Do you travel abroad?",
+    "a2": "Absolutely. I am available to travel outside the Veneto region and outside of Italy.",
+    "q3": "Do you provide an audio system?",
+    "a3": "I can help by providing contacts for professional microphone/audio systems and extra music."
+  },
+  "reviews": [
+    {
+      "name": "Giulia & Marco",
+      "text": "Noemi made our day unforgettable. She wrote a ceremony that truly spoke about us, moving all our guests. Her sweetness is unparalleled."
+    },
+    {
+      "name": "Sarah & Tom",
+      "text": "We met Noemi and instantly clicked. She delivered our entire ceremony flawlessly in both Italian and English. Our international guests felt completely involved!"
+    },
+    {
+      "name": "Elena & Roberto",
+      "text": "A fantastic experience. She helped us prepare everything, from documents to vows, calmly and professionally. Highly recommended!"
+    }
+  ],
+  "contact": {
+    "title": "Contact Me",
+    "name": "Name (Required)",
+    "email": "Email (Required)",
+    "phone": "Phone (Optional)",
+    "message": "Write your message (Tell me about your wedding!)...",
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "success": "Thank you! I will reply as soon as possible.",
+    "error": "Error during sending. Please try again later."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "cookiesConsent": "This website uses cookies to ensure you get the best experience.",
+    "accept": "Accept",
+    "decline": "Decline"
+  }
+}

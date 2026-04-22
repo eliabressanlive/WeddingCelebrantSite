@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Chi Sono",
+    "services": "Servizi",
+    "process": "Il Percorso",
+    "faq": "FAQ",
+    "contact": "Contatti"
+  },
+  "hero": {
+    "title": "Celebrare L'Amore, a Modo Vostro",
+    "subtitle": "Cerimonie nuziali uniche e personalizzate nelle colline del Prosecco e oltre.",
+    "cta": "Inizia il tuo percorso"
+  },
+  "about": {
+    "title": "La Mia Storia",
+    "bio1": "Ciao, sono Noemi Bressan! Sono una celebrante con sede a Valdobbiadene, nel cuore delle incantevoli colline venete del Prosecco. Sono specializzata nella creazione di cerimonie nuziali profondamente personali per coppie provenienti da tutto il mondo.",
+    "bio2": "Appassionata dell'amore e della narrazione, credo fermamente che ogni coppia meriti una cerimonia unica come la propria storia d'amore. Empatia, disponibilità, flessibilità e qualche consiglio utile a rendere quel giorno davvero perfetto sono le mie priorità.",
+    "languages": "Lingue Parlate",
+    "languagesDesc": "La lingua non deve essere una barriera per l'amore. Sono di madrelingua italiana e ho una laurea in inglese e tedesco. Parlo fluentemente anche lo spagnolo, il che mi permette di creare ed eseguire la tua cerimonia perfetta in più lingue."
+  },
+  "services": {
+    "title": "I Miei Servizi",
+    "wedding": {
+      "title": "Cerimonie Nuziali",
+      "desc": "Progettazione condivisa della cerimonia. Dai ritiri simbolici a quelli ufficiali con delega, trasmetto l'emozione dei racconti e del vostro percorso di vita. Testi e rituali completamente personalizzabili in una qualsiasi delle lingue che parlo."
+    },
+    "other": {
+      "title": "Altri Servizi",
+      "t1": "Tour Leader",
+      "d1": "Organizzo eventi e tour guidati nelle splendide Colline del Prosecco e provincia di Treviso.",
+      "t2": "Presentatrice di Eventi",
+      "d2": "Presentazioni di libri o madrina per eventi aziendali e formali."
+    },
+    "addons": {
+      "title": "Servizi Aggiuntivi (Add-ons)",
+      "desc": "Sopralluoghi, consigli sulle location, contatti diretti con testimoni, disponibilità a viaggiare fuori regione e all'estero. Posso fornire contatti con eccellenti professionisti come ingegneri del suono, DJ e jazz band."
+    }
+  },
+  "process": {
+    "title": "Come Lavoreremo Insieme",
+    "step1": {
+      "title": "Richiesta di Prenotazione",
+      "desc": "Il primo passo è controllare se sono disponibile per il vostro matrimonio utilizzando il modulo dedicato. Fisserò una pre-prenotazione e vi invierò tutte le informazioni entro un giorno."
+    },
+    "step2": {
+      "title": "Mettiamoci in Contatto!",
+      "desc": "Organizzeremo una videochiamata senza impegno per capire se sono la persona giusta per voi. Una volta convinti, confermeremo la prenotazione tramite acconto. Vi guiderò anche per gli aspetti legali."
+    },
+    "step3": {
+      "title": "La Preparazione",
+      "desc": "Mi prenderò cura del discorso affinché sia un riflesso significativo di entrambi. Definiamo insieme letture, promesse e rituali affinché tutto sia pronto e sereno."
+    },
+    "step4": {
+      "title": "La Cerimonia",
+      "desc": "È il vostro grande giorno! Sarò sul posto almeno 45 minuti prima. Gestirò ogni aspetto per una cerimonia impeccabile dall'inizio della marcia fino alla firma del certificato."
+    }
+  },
+  "faq": {
+    "title": "Domande Frequenti",
+    "reviewsTitle": "Cosa dicono gli sposi",
+    "q1": "Puoi celebrare matrimoni con valore legale?",
+    "a1": "Sì! Sono disponibile a celebrare sia cerimonie simboliche che riti ufficiali con delega civile.",
+    "q2": "Celebri anche all'estero?",
+    "a2": "Assolutamente sì. Sono disponibile a spostarmi fuori dal Veneto e fuori dall'Italia.",
+    "q3": "Fornisci l'impianto audio?",
+    "a3": "Posso aiutarvi fornendo contatti per impianti audio microfonici professionali o musica extra."
+  },
+  "reviews": [
+    {
+      "name": "Giulia & Marco",
+      "text": "Noemi ha reso il nostro giorno indimenticabile. Ha scritto una cerimonia che parlava davvero di noi, emozionando tutti gli ospiti. La sua dolcezza è impareggiabile."
+    },
+    {
+      "name": "Sarah & Tom",
+      "text": "We met Noemi and instantly clicked. She delivered our entire ceremony flawlessly in both Italian and English. Our international guests felt completely involved!"
+    },
+    {
+      "name": "Elena & Roberto",
+      "text": "Un'esperienza fantastica. Ci ha aiutato a preparare tutto, dai documenti alle promesse, con calma e professionalità. Consigliatissima!"
+    }
+  ],
+  "contact": {
+    "title": "Contattami",
+    "name": "Nome (Obbligatorio)",
+    "email": "Email (Obbligatoria)",
+    "phone": "Telefono (Opzionale)",
+    "message": "Scrivi il tuo messaggio (Racconta del vostro matrimonio!)...",
+    "submit": "Invia Messaggio",
+    "sending": "Invio in corso...",
+    "success": "Grazie! Ti risponderò al più presto.",
+    "error": "Errore durante l'invio. Riprova più tardi."
+  },
+  "footer": {
+    "rights": "Tutti i diritti riservati.",
+    "cookiesConsent": "Questo sito utilizza i cookie per offrirti la migliore esperienza.",
+    "accept": "Accetta",
+    "decline": "Rifiuta"
+  }
+}

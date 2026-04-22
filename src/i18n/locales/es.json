@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "services": "Servicios",
+    "process": "El Proceso",
+    "faq": "FAQ",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Celebrando el Amor, a Su Manera",
+    "subtitle": "Ceremonias de boda únicas y personalizadas en las colinas de Prosecco y más allá.",
+    "cta": "Comienza tu viaje"
+  },
+  "about": {
+    "title": "Mi Historia",
+    "bio1": "¡Hola, soy Noemi Bressan! Soy una maestra de ceremonias basada en Valdobbiadene, en el corazón de las hermosas colinas de Prosecco en Italia. Me especializo en crear ceremonias de boda profundamente personales para parejas de todo el mundo.",
+    "bio2": "Apasionada por el amor y la narración de historias, creo firmemente que cada pareja merece una ceremonia tan única como su historia de amor. La empatía, disponibilidad, flexibilidad y brindar consejos útiles para hacer que su día sea realmente perfecto son mis prioridades.",
+    "languages": "Habilidades Lingüísticas",
+    "languagesDesc": "El idioma nunca debería ser una barrera para el amor. Soy hablante nativa de italiano y tengo un título en inglés y alemán. También hablo español con fluidez, lo que me permite diseñar e impartir su ceremonia perfecta en varios idiomas."
+  },
+  "services": {
+    "title": "Mis Servicios",
+    "wedding": {
+      "title": "Ceremonias de Boda",
+      "desc": "Diseño compartido de la ceremonia. Desde ritos simbólicos hasta ceremonias civiles oficiales, transmito la emoción de sus historias. Textos y rituales totalmente personalizables en cualquiera de los idiomas que hablo."
+    },
+    "other": {
+      "title": "Otros Servicios",
+      "t1": "Operadora Turística",
+      "d1": "Organizo eventos y visitas guiadas a través de las impresionantes Colinas de Prosecco y Treviso.",
+      "t2": "Presentadora de Eventos",
+      "d2": "Anfitriona para presentaciones de libros, o eventos corporativos y formales."
+    },
+    "addons": {
+      "title": "Servicios Extras",
+      "desc": "Búsqueda de locaciones, contacto directo con testigos, disposición para viajar al extranjero. Puedo sugerir excelentes profesionales como ingenieros de sonido, DJs y bandas de jazz."
+    }
+  },
+  "process": {
+    "title": "Cómo Trabajaremos Juntos",
+    "step1": {
+      "title": "Solicitud de Reserva",
+      "desc": "El primer paso es verificar mediante el formulario si estoy disponible para la fecha de su boda. Agendaré una pre-reserva y les enviaré toda la información dentro de un día."
+    },
+    "step2": {
+      "title": "¡Pongámonos en contacto!",
+      "desc": "Coordinaremos una videollamada sin compromiso. Una vez que se decidan, confirmamos la reserva con un depósito. También los guiaré con todos los requisitos legales."
+    },
+    "step3": {
+      "title": "La Preparación",
+      "desc": "Definiremos juntos las lecturas, los votos y los rituales para que todo sea un reflejo significativo de ambos."
+    },
+    "step4": {
+      "title": "La Ceremonia",
+      "desc": "¡Es su gran día! Estaré allí al menos 45 minutos antes. Me encargaré de cada aspecto desde que comienza la marcha hasta la firma del certificado."
+    }
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes (FAQ)",
+    "reviewsTitle": "Lo que dicen las parejas",
+    "q1": "¿Puede oficiar bodas legalmente vinculantes?",
+    "a1": "¡Sí! Estoy disponible para oficiar tanto ceremonias simbólicas como ceremonias civiles oficiales con una delegación.",
+    "q2": "¿Viaja al extranjero?",
+    "a2": "Absolutamente. Estoy disponible para viajar fuera de la región del Véneto y fuera de Italia.",
+    "q3": "¿Proporciona equipo de sonido?",
+    "a3": "Puedo ayudar proporcionando contactos de sistemas de micrófono/audio profesionales y música extra."
+  },
+  "reviews": [
+    {
+      "name": "Giulia & Marco",
+      "text": "Noemi hizo que nuestro día fuera inolvidable. Escribió una ceremonia que realmente hablaba de nosotros, conmoviendo a todos nuestros invitados."
+    },
+    {
+      "name": "Sarah & Tom",
+      "text": "Conocimos a Noemi e instantáneamente conectamos. Llevó a cabo toda nuestra ceremonia de manera impecable en italiano e inglés."
+    },
+    {
+      "name": "Elena & Roberto",
+      "text": "Una experiencia fantástica. Nos ayudó a prepararlo todo, con calma y profesionalidad. ¡Muy recomendada!"
+    }
+  ],
+  "contact": {
+    "title": "Contáctame",
+    "name": "Nombre (Obligatorio)",
+    "email": "Correo Electrónico (Obligatorio)",
+    "phone": "Teléfono (Opcional)",
+    "message": "Escribe tu mensaje (¡Cuéntame sobre tu boda!)...",
+    "submit": "Enviar Mensaje",
+    "sending": "Enviando...",
+    "success": "¡Gracias! Responderé lo antes posible.",
+    "error": "Error al enviar. Por favor, inténtelo de nuevo más tarde."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "cookiesConsent": "Este sitio web utiliza cookies para asegurarle la mejor experiencia.",
+    "accept": "Aceptar",
+    "decline": "Rechazar"
+  }
+}
