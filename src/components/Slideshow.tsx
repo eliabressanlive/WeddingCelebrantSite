@@ -50,7 +50,7 @@ const Slideshow: React.FC = () => {
           {randomizedImages.map((filename, idx) => (
             <SwiperSlide key={idx} className="flex justify-center items-center overflow-hidden rounded-2xl shadow-lg border-2 border-emerald-200/60">
               <img 
-                src={`/images/${filename}`} 
+                src={`${import.meta.env.BASE_URL}images/${filename}`} 
                 alt={`Photo ${idx}`} 
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" 
               />
