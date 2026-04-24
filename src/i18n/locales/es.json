@@ -1,10 +1,10 @@
 {
   "nav": {
     "home": "Inicio",
-    "about": "Sobre mí",
+    "about": "Sobre Mí",
     "services": "Servicios",
     "process": "El Proceso",
-    "faq": "FAQ",
+    "faq": "Preguntas Frecuentes",
     "contact": "Contacto"
   },
   "hero": {
@@ -14,87 +14,85 @@
   },
   "about": {
     "title": "Mi Historia",
-    "bio1": "¡Hola, soy Noemi Bressan! Soy una maestra de ceremonias basada en Valdobbiadene, en el corazón de las hermosas colinas de Prosecco en Italia. Me especializo en crear ceremonias de boda profundamente personales para parejas de todo el mundo.",
-    "bio2": "Apasionada por el amor y la narración de historias, creo firmemente que cada pareja merece una ceremonia tan única como su historia de amor. La empatía, disponibilidad, flexibilidad y brindar consejos útiles para hacer que su día sea realmente perfecto son mis prioridades.",
-    "languages": "Habilidades Lingüísticas",
-    "languagesDesc": "El idioma nunca debería ser una barrera para el amor. Soy hablante nativa de italiano y tengo un título en inglés y alemán. También hablo español con fluidez, lo que me permite diseñar e impartir su ceremonia perfecta en varios idiomas."
+    "bio1": "¡Hola, soy Noemi Bressan! Soy una oficiante con sede en Valdobbiadene, en el corazón de las encantadoras colinas venecianas del Prosecco. Me especializo en crear ceremonias de boda personalizadas para parejas de todo el mundo.",
+    "bio2": "Apasionada por el amor sincero, creo firmemente que cada pareja merece una ceremonia tan única como su propia historia de amor. La empatía, disponibilidad, flexibilidad y algunos consejos útiles para hacer ese día realmente especial son mis prioridades.",
+    "languages": "Idiomas Hablados",
+    "languagesDesc": "El idioma no debe ser una barrera para el amor. Soy hablante nativa de italiano y tengo una licenciatura en inglés y alemán. También hablo español con fluidez, lo que me permitirá narrar su ceremonia en diferentes idiomas."
   },
   "services": {
     "title": "Mis Servicios",
     "wedding": {
       "title": "Ceremonias de Boda",
-      "desc": "Diseño compartido de la ceremonia. Desde ritos simbólicos hasta ceremonias civiles oficiales, transmito la emoción de sus historias. Textos y rituales totalmente personalizables en cualquiera de los idiomas que hablo."
+      "desc": "Diseño compartido de la ceremonia. Desde retiros simbólicos hasta oficiales con delegación civil, transmito la emoción de las historias y de su viaje de vida. Textos y rituales completamente personalizables en cualquiera de los idiomas que hablo."
     },
     "other": {
       "title": "Otros Servicios",
-      "t1": "Operadora Turística",
-      "d1": "Organizo eventos y visitas guiadas a través de las impresionantes Colinas de Prosecco y Treviso.",
+      "t1": "Líder de Tour",
+      "d1": "Organizo eventos y visitas guiadas en las hermosas colinas de Prosecco y la provincia de Treviso.",
       "t2": "Presentadora de Eventos",
-      "d2": "Anfitriona para presentaciones de libros, o eventos corporativos y formales."
+      "d2": "Presentaciones de libros o para eventos corporativos y formales."
     },
     "addons": {
-      "title": "Servicios Extras",
-      "desc": "Búsqueda de locaciones, contacto directo con testigos, disposición para viajar al extranjero. Puedo sugerir excelentes profesionales como ingenieros de sonido, DJs y bandas de jazz."
+      "title": "Servicios Adicionales",
+      "desc": "Inspecciones de lugares, consejos de ubicación, contacto directo con testigos, disponibilidad para viajar fuera de la región y al extranjero. Puedo proporcionar contactos con excelentes profesionales como ingenieros de sonido, DJs y bandas de jazz."
     },
     "viewGallery": "Galería"
   },
   "process": {
     "title": "Cómo Trabajaremos Juntos",
     "step1": {
-      "title": "Solicitud de Reserva",
-      "desc": "El primer paso es verificar mediante el formulario si estoy disponible para la fecha de su boda. Agendaré una pre-reserva y les enviaré toda la información dentro de un día."
+      "title": "El primer paso",
+      "desc": "Sin ningún compromiso, podemos organizar una videollamada para evaluar juntos si soy la persona adecuada para sus necesidades. Una vez tomada la decisión, podemos pasar a las siguientes fases."
     },
     "step2": {
-      "title": "¡Pongámonos en contacto!",
-      "desc": "Coordinaremos una videollamada sin compromiso. Una vez que se decidan, confirmamos la reserva con un depósito. También los guiaré con todos los requisitos legales."
+      "title": "Preparación de la ceremonia",
+      "desc": "Me encargaré de su discurso para que realmente refleje quiénes son. Juntos definiremos las fases de la ceremonia, los votos y los rituales, para que todo esté preparado con cuidado y hasta el más mínimo detalle."
     },
     "step3": {
-      "title": "La Preparación",
-      "desc": "Definiremos juntos las lecturas, los votos y los rituales para que todo sea un reflejo significativo de ambos."
-    },
-    "step4": {
       "title": "La Ceremonia",
-      "desc": "¡Es su gran día! Estaré allí al menos 45 minutos antes. Me encargaré de cada aspecto desde que comienza la marcha hasta la firma del certificado."
+      "desc": "¡Es su gran día! Estaré presente con al menos 45 minutos de anticipación y me encargaré de cada detalle, desde el inicio de la marcha hasta la firma del certificado, para garantizar una ceremonia fluida e impecable."
     }
   },
   "faq": {
-    "title": "Preguntas Frecuentes (FAQ)",
+    "title": "Preguntas Frecuentes",
     "reviewsTitle": "Lo que dicen las parejas",
-    "q1": "¿Puede oficiar bodas legalmente vinculantes?",
-    "a1": "¡Sí! Estoy disponible para oficiar tanto ceremonias simbólicas como ceremonias civiles oficiales con una delegación.",
-    "q2": "¿Viaja al extranjero?",
-    "a2": "Absolutamente. Estoy disponible para viajar fuera de la región del Véneto y fuera de Italia.",
-    "q3": "¿Proporciona equipo de sonido?",
-    "a3": "Puedo ayudar proporcionando contactos de sistemas de micrófono/audio profesionales y música extra."
+    "q1": "¿Puedes celebrar bodas con valor legal?",
+    "a1": "¡Sí! Estoy disponible para celebrar tanto ceremonias simbólicas como ritos oficiales con delegación civil.",
+    "q2": "¿Celebras también en el extranjero?",
+    "a2": "Absolutamente sí. Estoy disponible para viajar fuera de la región de Véneto y fuera de Italia.",
+    "q3": "¿Proporcionas el sistema de audio?",
+    "a3": "Puedo ayudarles proporcionando contactos para sistemas de audio con micrófonos profesionales o música grabada extra, desde la ceremonia hasta la fiesta.",
+    "q4": "¿Conoces bandas para música en vivo?",
+    "a4": "¡Ciertamente! Tengo contactos con bandas locales, especialmente de jazz y acústicas."
   },
   "reviews": [
     {
-      "name": "Giulia & Marco",
-      "text": "Noemi hizo que nuestro día fuera inolvidable. Escribió una ceremonia que realmente hablaba de nosotros, conmoviendo a todos nuestros invitados."
+      "name": "Giulia & Denis",
+      "text": "Noemi ha hecho que nuestro día sea inolvidable. Escribió una ceremonia que realmente hablaba de nosotros, conmoviendo a todos los invitados. Su dulzura es inigualable."
     },
     {
       "name": "Sarah & Tom",
-      "text": "Conocimos a Noemi e instantáneamente conectamos. Llevó a cabo toda nuestra ceremonia de manera impecable en italiano e inglés."
+      "text": "We met Noemi and instantly clicked. She delivered our entire ceremony flawlessly in both Italian and English. Our international guests felt completely involved!"
     },
     {
       "name": "Elena & Roberto",
-      "text": "Una experiencia fantástica. Nos ayudó a prepararlo todo, con calma y profesionalidad. ¡Muy recomendada!"
+      "text": "Una experiencia fantástica. Nos ayudó a preparar todo, desde los documentos hasta los votos, con calma y profesionalidad. ¡Muy recomendada!"
     }
   ],
   "contact": {
     "title": "Contáctame",
-    "name": "Nombre (Obligatorio)",
-    "email": "Correo Electrónico (Obligatorio)",
-    "phone": "Teléfono (Opcional)",
-    "message": "Escribe tu mensaje (¡Cuéntame sobre tu boda!)...",
+    "name": "Nombre*",
+    "email": "Correo Electrónico*",
+    "phone": "Teléfono",
+    "message": "Escribe tu mensaje y te contactaré lo antes posible",
     "submit": "Enviar Mensaje",
     "sending": "Enviando...",
-    "success": "¡Gracias! Responderé lo antes posible.",
-    "error": "Error al enviar. Por favor, inténtelo de nuevo más tarde."
+    "success": "¡Gracias! Te contactaré lo antes posible.",
+    "error": "Error al enviar. Por favor, inténtalo de nuevo más tarde."
   },
   "footer": {
     "rights": "Todos los derechos reservados.",
-    "cookiesConsent": "Este sitio web utiliza cookies para asegurarle la mejor experiencia.",
+    "cookiesConsent": "Este sitio utiliza cookies para ofrecerte la mejor experiencia.",
     "accept": "Aceptar",
     "decline": "Rechazar"
   }

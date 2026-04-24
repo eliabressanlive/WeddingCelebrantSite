@@ -65,7 +65,7 @@ const Services: React.FC = () => {
         {/* ── Background image ── */}
         <div className="absolute inset-0 z-0">
           <img
-            src={`${import.meta.env.BASE_URL}images/backgrounds/castelbrando.jpeg`}
+            src={`${import.meta.env.BASE_URL}images/backgrounds/WhatsApp Image 2026-04-24 at 23.26.21.jpeg`}
             alt=""
             className="absolute inset-0 w-full h-full object-cover"
           />

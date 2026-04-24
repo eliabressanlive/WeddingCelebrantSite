@@ -1,100 +1,98 @@
 {
   "nav": {
     "home": "Startseite",
-    "about": "Über mich",
+    "about": "Über Mich",
     "services": "Leistungen",
     "process": "Der Ablauf",
     "faq": "FAQ",
     "contact": "Kontakt"
   },
   "hero": {
-    "title": "Wir feiern die Liebe, auf Ihre Art",
-    "subtitle": "Einzigartige und personalisierte Hochzeitszeremonien in den Prosecco-Hügeln und darüber hinaus.",
+    "title": "Liebe Feiern, Auf Ihre Weise",
+    "subtitle": "Einzigartige und persönliche Hochzeitszeremonien in den Prosecco-Hügeln und darüber hinaus.",
     "cta": "Beginnen Sie Ihre Reise"
   },
   "about": {
     "title": "Meine Geschichte",
-    "bio1": "Hallo, ich bin Noemi Bressan! Ich bin eine freie Rednerin mit Sitz in Valdobbiadene, im Herzen der wunderschönen Prosecco-Hügel in Italien. Ich habe mich darauf spezialisiert, sehr persönliche Hochzeitszeremonien für Paare aus der ganzen Welt zu kreieren.",
-    "bio2": "Aus Leidenschaft für die Liebe und das Geschichtenerzählen glaube ich fest daran, dass jedes Paar eine Zeremonie verdient, die so einzigartig ist wie seine Liebesgeschichte. Empathie, Flexibilität und ein paar nützliche Tipps, um diesen Tag wirklich perfekt zu machen, sind meine Prioritäten.",
-    "languages": "Sprachkenntnisse",
-    "languagesDesc": "Sprache sollte nie ein Hindernis für die Liebe sein. Ich bin italienische Muttersprachlerin und habe einen Abschluss in Englisch und Deutsch. Außerdem spreche ich fließend Spanisch, was es mir ermöglicht, Ihre perfekte Zeremonie in mehreren Sprachen zu gestalten und durchzuführen."
+    "bio1": "Hallo, ich bin Noemi Bressan! Ich bin eine freie Traurednerin aus Valdobbiadene, im Herzen der bezaubernden venezianischen Prosecco-Hügel. Ich bin darauf spezialisiert, persönliche Hochzeitszeremonien für Paare aus der ganzen Welt zu gestalten.",
+    "bio2": "Aus Leidenschaft für die aufrichtige Liebe glaube ich fest daran, dass jedes Paar eine Zeremonie verdient, die so einzigartig ist wie seine Liebesgeschichte. Empathie, Verfügbarkeit, Flexibilität und einige nützliche Ratschläge, um diesen Tag wirklich besonders zu machen, sind meine Prioritäten.",
+    "languages": "Gesprochene Sprachen",
+    "languagesDesc": "Sprache sollte kein Hindernis für die Liebe sein. Meine Muttersprache ist Italienisch und ich habe einen Abschluss in Englisch und Deutsch. Ich spreche auch fließend Spanisch, was es mir ermöglicht, Ihre Zeremonie in verschiedenen Sprachen zu erzählen."
   },
   "services": {
     "title": "Meine Leistungen",
     "wedding": {
       "title": "Hochzeitszeremonien",
-      "desc": "Gemeinsame Gestaltung der Zeremonie. Von symbolischen bis hin zu offiziellen Riten (mit Vollmacht) vermittle ich die Emotionen Ihrer Geschichte. Vollständig anpassbare Texte und Rituale in allen Sprachen, die ich spreche."
+      "desc": "Gemeinsame Gestaltung der Zeremonie. Von symbolischen Ritualen bis hin zu offiziellen Riten mit ziviler Vollmacht vermittle ich die Emotionen der Geschichten und Ihres Lebensweges. Vollständig anpassbare Texte und Rituale in jeder der Sprachen, die ich spreche."
     },
     "other": {
       "title": "Weitere Leistungen",
-      "t1": "Reiseveranstalterin",
-      "d1": "Ich organisiere Events und Führungen durch die atemberaubenden Prosecco-Hügel und Treviso.",
-      "t2": "Event-Moderatorin",
-      "d2": "Moderatorin für Buchpräsentationen oder Firmenveranstaltungen."
+      "t1": "Reiseleitung",
+      "d1": "Ich organisiere Veranstaltungen und geführte Touren in den wunderschönen Prosecco-Hügeln und der Provinz Treviso.",
+      "t2": "Event-Moderation",
+      "d2": "Buchpräsentationen oder für geschäftliche und formelle Veranstaltungen."
     },
     "addons": {
-      "title": "Optionale Zusatzleistungen",
-      "desc": "Besichtigung von Locations, direkter Kontakt zu Trauzeugen, Reisebereitschaft (auch im Ausland). Ich kann Kontakte zu exzellenten Profis wie Toningenieuren, DJs und Jazzbands vermitteln."
+      "title": "Zusätzliche Leistungen",
+      "desc": "Ortsbesichtigungen, Empfehlungen für Locations, direkter Kontakt mit Trauzeugen, Bereitschaft zu Reisen außerhalb der Region und ins Ausland. Ich kann Kontakte zu exzellenten Profis wie Tontechnikern, DJs und Jazzbands vermitteln."
     },
     "viewGallery": "Galerie"
   },
   "process": {
-    "title": "Wie wir zusammenarbeiten",
+    "title": "Wie wir zusammenarbeiten werden",
     "step1": {
-      "title": "Buchungsanfrage",
-      "desc": "Der erste Schritt ist, über das Formular zu prüfen, ob ich an Ihrem Hochzeitsdatum verfügbar bin. Ich reserviere den Termin und sende Ihnen innerhalb eines Tages alle Informationen."
+      "title": "Der erste Schritt",
+      "desc": "Ganz unverbindlich können wir einen Videoanruf organisieren, um gemeinsam zu bewerten, ob ich die richtige Person für Ihre Bedürfnisse bin. Sobald die Entscheidung getroffen ist, können wir zu den nächsten Phasen übergehen."
     },
     "step2": {
-      "title": "Lassen Sie uns in Kontakt treten!",
-      "desc": "Wir vereinbaren ein unverbindliches Videogespräch. Wenn Sie sich entschieden haben, bestätigen wir die Buchung mit einer Anzahlung. Ich führe Sie auch durch alle rechtlichen Anforderungen."
+      "title": "Vorbereitung der Zeremonie",
+      "desc": "Ich kümmere mich um Ihre Rede, damit sie wirklich widerspiegelt, wer Sie sind. Gemeinsam legen wir die Phasen der Zeremonie, die Gelübde und die Rituale fest, damit alles sorgfältig und bis ins kleinste Detail vorbereitet ist."
     },
     "step3": {
-      "title": "Die Vorbereitung",
-      "desc": "Wir legen gemeinsam Lesungen, Eheversprechen und Rituale fest, damit alles eine bedeutungsvolle Widerspiegelung von Ihnen beiden ist."
-    },
-    "step4": {
       "title": "Die Zeremonie",
-      "desc": "Es ist Ihr großer Tag! Ich bin mindestens 45 Minuten vorher da. Ich kümmere mich um jeden Aspekt, vom Beginn des Einzugs bis zur Unterzeichnung der Urkunde."
+      "desc": "Es ist Ihr großer Tag! Ich werde mindestens 45 Minuten im Voraus anwesend sein und mich um jedes Detail kümmern, vom Beginn des Einzugs bis zur Unterzeichnung der Urkunde, um eine reibungslose und makellose Zeremonie zu gewährleisten."
     }
   },
   "faq": {
-    "title": "Häufig gestellte Fragen (FAQ)",
+    "title": "Häufig Gestellte Fragen",
     "reviewsTitle": "Was Paare sagen",
-    "q1": "Können Sie rechtskräftige Hochzeiten durchführen?",
-    "a1": "Ja! Ich stehe sowohl für symbolische Zeremonien als auch für offizielle standesamtliche Trauungen (mit Delegation) zur Verfügung.",
-    "q2": "Reisen Sie auch ins Ausland?",
-    "a2": "Absolut. Ich stehe auch außerhalb der Region Venetien und außerhalb Italiens zur Verfügung.",
-    "q3": "Stellen Sie eine Audioanlage zur Verfügung?",
-    "a3": "Ich kann durch Kontakte für professionelle Mikrofon-/Audioanlagen und zusätzliche Musik helfen."
+    "q1": "Können Sie rechtsverbindliche Eheschließungen durchführen?",
+    "a1": "Ja! Ich stehe sowohl für symbolische Zeremonien als auch für offizielle Riten mit ziviler Vollmacht zur Verfügung.",
+    "q2": "Zelebrieren Sie auch im Ausland?",
+    "a2": "Absolut ja. Ich bin bereit, auch außerhalb der Region Venetien und außerhalb Italiens zu reisen.",
+    "q3": "Stellen Sie die Audioanlage zur Verfügung?",
+    "a3": "Ich kann Ihnen helfen, indem ich Kontakte für professionelle Mikrofon-Audioanlagen oder zusätzliche aufgezeichnete Musik von der Zeremonie bis zur Party vermittle.",
+    "q4": "Kennen Sie Bands für Live-Musik?",
+    "a4": "Sicherlich! Ich habe Kontakte zu lokalen Bands, insbesondere Jazz und Akustik."
   },
   "reviews": [
     {
-      "name": "Giulia & Marco",
-      "text": "Noemi hat unseren Tag unvergesslich gemacht. Sie hat eine Zeremonie geschrieben, die wirklich von uns handelte und alle Gäste bewegte."
+      "name": "Giulia & Denis",
+      "text": "Noemi hat unseren Tag unvergesslich gemacht. Sie hat eine Zeremonie geschrieben, die wirklich von uns sprach und alle Gäste berührt hat. Ihre Herzlichkeit ist unvergleichlich."
     },
     {
       "name": "Sarah & Tom",
-      "text": "Wir trafen Noemi und haben uns sofort gut verstanden. Sie hielt unsere gesamte Zeremonie fehlerfrei auf Italienisch und Englisch ab."
+      "text": "We met Noemi and instantly clicked. She delivered our entire ceremony flawlessly in both Italian and English. Our international guests felt completely involved!"
     },
     {
       "name": "Elena & Roberto",
-      "text": "Eine fantastische Erfahrung. Sie half uns ruhig und professionell bei der Vorbereitung von allem, von den Dokumenten bis zu den Eheversprechen. Sehr zu empfehlen!"
+      "text": "Eine fantastische Erfahrung. Sie half uns, alles vorzubereiten, von Dokumenten bis zu Gelübden, mit Ruhe und Professionalität. Sehr zu empfehlen!"
     }
   ],
   "contact": {
     "title": "Kontaktieren Sie mich",
-    "name": "Name (Erforderlich)",
-    "email": "E-Mail (Erforderlich)",
-    "phone": "Telefon (Optional)",
-    "message": "Schreiben Sie Ihre Nachricht (Erzählen Sie mir von Ihrer Hochzeit!)...",
+    "name": "Name*",
+    "email": "E-Mail*",
+    "phone": "Telefon",
+    "message": "Schreiben Sie Ihre Nachricht und ich werde Sie so schnell wie möglich kontaktieren",
     "submit": "Nachricht Senden",
     "sending": "Wird gesendet...",
-    "success": "Danke! Ich werde so schnell wie möglich antworten.",
+    "success": "Danke! Ich werde Sie so schnell wie möglich kontaktieren.",
     "error": "Fehler beim Senden. Bitte versuchen Sie es später noch einmal."
   },
   "footer": {
     "rights": "Alle Rechte vorbehalten.",
-    "cookiesConsent": "Diese Website verwendet Cookies, um Ihnen das beste Erlebnis zu bieten.",
+    "cookiesConsent": "Diese Seite verwendet Cookies, um Ihnen das beste Erlebnis zu bieten.",
     "accept": "Akzeptieren",
     "decline": "Ablehnen"
   }
