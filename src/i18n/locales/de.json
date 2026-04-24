@@ -35,7 +35,8 @@
     "addons": {
       "title": "Optionale Zusatzleistungen",
       "desc": "Besichtigung von Locations, direkter Kontakt zu Trauzeugen, Reisebereitschaft (auch im Ausland). Ich kann Kontakte zu exzellenten Profis wie Toningenieuren, DJs und Jazzbands vermitteln."
-    }
+    },
+    "viewGallery": "Galerie"
   },
   "process": {
     "title": "Wie wir zusammenarbeiten",

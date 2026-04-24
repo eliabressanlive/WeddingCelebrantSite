@@ -49,6 +49,7 @@ const Navbar: React.FC = () => {
                 key={section}
                 to={section}
                 spy={true}
+                hashSpy={true}
                 smooth={true}
                 offset={-60}
                 duration={300}
@@ -103,6 +104,7 @@ const Navbar: React.FC = () => {
                 key={section}
                 to={section}
                 spy={true}
+                hashSpy={true}
                 smooth={true}
                 offset={-60}
                 duration={300}

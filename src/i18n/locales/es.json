@@ -35,7 +35,8 @@
     "addons": {
       "title": "Servicios Extras",
       "desc": "Búsqueda de locaciones, contacto directo con testigos, disposición para viajar al extranjero. Puedo sugerir excelentes profesionales como ingenieros de sonido, DJs y bandas de jazz."
-    }
+    },
+    "viewGallery": "Galería"
   },
   "process": {
     "title": "Cómo Trabajaremos Juntos",

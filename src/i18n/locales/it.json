@@ -14,10 +14,10 @@
   },
   "about": {
     "title": "La Mia Storia",
-    "bio1": "Ciao, sono Noemi Bressan! Sono una celebrante con sede a Valdobbiadene, nel cuore delle incantevoli colline venete del Prosecco. Sono specializzata nella creazione di cerimonie nuziali profondamente personali per coppie provenienti da tutto il mondo.",
-    "bio2": "Appassionata dell'amore e della narrazione, credo fermamente che ogni coppia meriti una cerimonia unica come la propria storia d'amore. Empatia, disponibilità, flessibilità e qualche consiglio utile a rendere quel giorno davvero perfetto sono le mie priorità.",
+    "bio1": "Ciao, sono Noemi Bressan! Sono una celebrante con sede a Valdobbiadene, nel cuore delle incantevoli colline venete del Prosecco. Sono specializzata nella creazione di cerimonie nuziali personali per coppie provenienti da tutto il mondo.",
+    "bio2": "Appassionata dell'amore sincero, credo fermamente che ogni coppia meriti una cerimonia unica come la propria storia d'amore. Empatia, disponibilità, flessibilità e qualche consiglio utile a rendere quel giorno davvero speciale sono le mie priorità.",
     "languages": "Lingue Parlate",
-    "languagesDesc": "La lingua non deve essere una barriera per l'amore. Sono di madrelingua italiana e ho una laurea in inglese e tedesco. Parlo fluentemente anche lo spagnolo, il che mi permette di creare ed eseguire la tua cerimonia perfetta in più lingue."
+    "languagesDesc": "La lingua non deve essere una barriera per l'amore. Sono di madrelingua italiana e ho una laurea in inglese e tedesco. Parlo fluentemente anche lo spagnolo, il che mi permetterà di raccontare la vostra cerimonia in lingue diverse."
   },
   "services": {
     "title": "I Miei Servizi",
@@ -30,28 +30,25 @@
       "t1": "Tour Leader",
       "d1": "Organizzo eventi e tour guidati nelle splendide Colline del Prosecco e provincia di Treviso.",
       "t2": "Presentatrice di Eventi",
-      "d2": "Presentazioni di libri o madrina per eventi aziendali e formali."
+      "d2": "Presentazioni di libri o per per eventi aziendali e formali."
     },
     "addons": {
-      "title": "Servizi Aggiuntivi (Add-ons)",
+      "title": "Servizi Aggiuntivi",
       "desc": "Sopralluoghi, consigli sulle location, contatti diretti con testimoni, disponibilità a viaggiare fuori regione e all'estero. Posso fornire contatti con eccellenti professionisti come ingegneri del suono, DJ e jazz band."
-    }
+    },
+    "viewGallery": "Galleria"
   },
   "process": {
     "title": "Come Lavoreremo Insieme",
     "step1": {
-      "title": "Richiesta di Prenotazione",
-      "desc": "Il primo passo è controllare se sono disponibile per il vostro matrimonio utilizzando il modulo dedicato. Fisserò una pre-prenotazione e vi invierò tutte le informazioni entro un giorno."
-    },
-    "step2": {
       "title": "Mettiamoci in Contatto!",
       "desc": "Organizzeremo una videochiamata senza impegno per capire se sono la persona giusta per voi. Una volta convinti, confermeremo la prenotazione tramite acconto. Vi guiderò anche per gli aspetti legali."
     },
-    "step3": {
+    "step2": {
       "title": "La Preparazione",
       "desc": "Mi prenderò cura del discorso affinché sia un riflesso significativo di entrambi. Definiamo insieme letture, promesse e rituali affinché tutto sia pronto e sereno."
     },
-    "step4": {
+    "step3": {
       "title": "La Cerimonia",
       "desc": "È il vostro grande giorno! Sarò sul posto almeno 45 minuti prima. Gestirò ogni aspetto per una cerimonia impeccabile dall'inizio della marcia fino alla firma del certificato."
     }
@@ -64,11 +61,13 @@
     "q2": "Celebri anche all'estero?",
     "a2": "Assolutamente sì. Sono disponibile a spostarmi fuori dal Veneto e fuori dall'Italia.",
     "q3": "Fornisci l'impianto audio?",
-    "a3": "Posso aiutarvi fornendo contatti per impianti audio microfonici professionali o musica extra."
+    "a3": "Posso aiutarvi fornendo contatti per impianti audio microfonici professionali o musica registrata extra, dalla cerimonia fino alla festa.",
+    "q4": "Conosci band per musica dal vivo?",
+    "a4": "Certamente! Ho contatti con band locali soprattutto jazz e acustiche."
   },
   "reviews": [
     {
-      "name": "Giulia & Marco",
+      "name": "Giulia & Denis",
       "text": "Noemi ha reso il nostro giorno indimenticabile. Ha scritto una cerimonia che parlava davvero di noi, emozionando tutti gli ospiti. La sua dolcezza è impareggiabile."
     },
     {
@@ -82,13 +81,13 @@
   ],
   "contact": {
     "title": "Contattami",
-    "name": "Nome (Obbligatorio)",
-    "email": "Email (Obbligatoria)",
-    "phone": "Telefono (Opzionale)",
-    "message": "Scrivi il tuo messaggio (Racconta del vostro matrimonio!)...",
+    "name": "Nome*",
+    "email": "Email*",
+    "phone": "Telefono",
+    "message": "Scrivete il vostro messaggio e vi contatterò al più presto",
     "submit": "Invia Messaggio",
     "sending": "Invio in corso...",
-    "success": "Grazie! Ti risponderò al più presto.",
+    "success": "Grazie! Vi contatterò al più presto.",
     "error": "Errore durante l'invio. Riprova più tardi."
   },
   "footer": {

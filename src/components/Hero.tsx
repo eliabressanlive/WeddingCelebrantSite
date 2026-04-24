@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
             bg-no-repeat
             bg-[position:center_calc(50%-160px)]
             scale-[1.24] 
-            max-[1500px]:bg-[position:center_calc(50%-124px)]
+            max-[1500px]:bg-[position:center_calc(50%-110px)]
             max-[1500px]:scale-[1.40]"
         style={{
           backgroundImage: `url("${import.meta.env.BASE_URL}hero-bg.jpg")`
@@ -49,9 +49,9 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.8, delay: 1 }}
         >
           <Link
-            to="contact"
+            to="about"
             smooth={true}
-            duration={500}
+            duration={200}
             className="cursor-pointer inline-block bg-brand-gold text-white px-8 py-4 rounded-full text-sm uppercase tracking-widest font-semibold hover:bg-brand-gold/90 transition-all shadow-lg hover:shadow-xl hover:-translate-y-1"
           >
             {t('hero.cta')}

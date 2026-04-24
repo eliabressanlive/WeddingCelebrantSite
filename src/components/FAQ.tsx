@@ -11,19 +11,29 @@ const FAQ: React.FC = () => {
     { q: 'faq.q1', a: 'faq.a1' },
     { q: 'faq.q2', a: 'faq.a2' },
     { q: 'faq.q3', a: 'faq.a3' },
+    { q: 'faq.q4', a: 'faq.a4' },
   ];
 
-  const reviews = t('reviews', { returnObjects: true }) as Array<{name: string, text: string}>;
+  const reviews = t('reviews', { returnObjects: true }) as Array<{ name: string, text: string }>;
 
   return (
-    <section id="faq" className="py-24 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+    <section id="faq" className="relative py-24 overflow-hidden">
+      {/* Light floral background */}
+      <div
+        className="absolute inset-0 z-0 opacity-40"
+        style={{
+          backgroundImage: `url("${import.meta.env.BASE_URL}images/backgrounds/faq-floral.png")`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      />
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-          
+
           {/* FAQ Accordion */}
           <div>
-            <motion.h2 
+            <motion.h2
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -40,8 +50,8 @@ const FAQ: React.FC = () => {
                     className="w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none"
                   >
                     <span className="font-medium text-lg text-brand-charcoal">{t(faq.q)}</span>
-                    <ChevronDown 
-                      className={`text-brand-gold transition-transform duration-300 flex-shrink-0 ml-4 ${openIndex === index ? 'rotate-180' : ''}`} 
+                    <ChevronDown
+                      className={`text-brand-gold transition-transform duration-300 flex-shrink-0 ml-4 ${openIndex === index ? 'rotate-180' : ''}`}
                     />
                   </button>
                   <AnimatePresence>
@@ -66,7 +76,7 @@ const FAQ: React.FC = () => {
 
           {/* Reviews */}
           <div>
-            <motion.h2 
+            <motion.h2
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -77,7 +87,7 @@ const FAQ: React.FC = () => {
 
             <div className="space-y-6">
               {reviews.map((review, index) => (
-                <motion.div 
+                <motion.div
                   key={index}
                   initial={{ opacity: 0, y: 10 }}
                   whileInView={{ opacity: 1, y: 0 }}

@@ -43,12 +43,24 @@ const Contact: React.FC = () => {
     setIsSubmitting(true);
     setSubmitStatus('idle');
 
-    // NOTE: User must replace these placeholders with their actual EmailJS IDs
-    emailjs.sendForm(
-      'YOUR_SERVICE_ID',
-      'YOUR_TEMPLATE_ID',
-      formRef.current,
-      'YOUR_PUBLIC_KEY'
+    const formData = new FormData(formRef.current);
+    const userName = formData.get('user_name');
+    const userEmail = formData.get('user_email');
+    const userPhone = formData.get('user_phone');
+    const userMessage = formData.get('message');
+
+    const templateParams = {
+      name: userName,
+      email: userEmail,
+      message: userMessage,
+      phone: userPhone,
+    };
+
+    emailjs.send(
+      'service_tdj1y88',
+      'template_xvha8wd',
+      templateParams,
+      'lOb5FMGugcuLNKjKq'
     )
       .then(() => {
         setSubmitStatus('success');
@@ -67,11 +79,11 @@ const Contact: React.FC = () => {
   };
 
   const valdobbiadeneCoords: [number, number] = [45.9000, 11.9961];
-  const emailAddress = 'no.bressan@gmail.com';
+  const emailAddress = 'info.noemi.bressan@gmail.com';
 
   return (
-    <section className="py-24 bg-brand-ivory relative">
-      <div id="contact" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="contact" className="py-24 bg-brand-ivory relative">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div className="text-center mb-16">
           <motion.h2
@@ -106,6 +118,8 @@ const Contact: React.FC = () => {
                   type="email"
                   name="user_email"
                   required
+                  pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+                  title="Please enter a valid email address (e.g. name@example.com)"
                   className="w-full px-4 py-3 border border-brand-border rounded-lg focus:ring-2 focus:ring-brand-gold focus:border-transparent outline-none transition-all bg-brand-ivory/50"
                 />
               </div>
@@ -115,6 +129,8 @@ const Contact: React.FC = () => {
                 <input
                   type="tel"
                   name="user_phone"
+                  pattern="^\+?[0-9\s\-\(\)]{7,20}$"
+                  title="Please enter a valid phone number (e.g. +39 333 123 4567). Only numbers, spaces, and basic symbols are allowed."
                   className="w-full px-4 py-3 border border-brand-border rounded-lg focus:ring-2 focus:ring-brand-gold focus:border-transparent outline-none transition-all bg-brand-ivory/50"
                 />
               </div>
@@ -186,7 +202,7 @@ const Contact: React.FC = () => {
                     <a href="https://instagram.com/noemi_bres" target="_blank" rel="noreferrer" className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center hover:bg-brand-gold transition-colors">
                       <InstagramIcon />
                     </a>
-                    <a href="https://facebook.com/NoemiBressan" target="_blank" rel="noreferrer" className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center hover:bg-brand-gold transition-colors">
+                    <a href="https://www.facebook.com/share/1BZfjLeqSr/" target="_blank" rel="noreferrer" className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center hover:bg-brand-gold transition-colors">
                       <FacebookIcon />
                     </a>
                   </div>

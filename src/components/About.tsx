@@ -10,9 +10,9 @@ const About: React.FC = () => {
     <section id="about" className="py-24 bg-brand-ivory">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          
+
           {/* Image Column */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -20,10 +20,9 @@ const About: React.FC = () => {
             className="relative"
           >
             <div className="aspect-[4/5] overflow-hidden rounded-t-full rounded-bl-full shadow-2xl">
-              {/* Note: Using an Unsplash placeholder for demonstration, replace with actual image later */}
-              <img 
-                src="https://images.unsplash.com/photo-1541250848049-b4f714612024?q=80&w=1287&auto=format&fit=crop" 
-                alt="Noemi Bressan" 
+              <img
+                src={`${import.meta.env.BASE_URL}images/events/Primavera P.co'25-1.jpg`}
+                alt="Noemi Bressan"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -31,14 +30,14 @@ const About: React.FC = () => {
           </motion.div>
 
           {/* Text Column */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-4xl md:text-5xl text-brand-charcoal mb-8">{t('about.title')}</h2>
-            
+
             <div className="prose prose-lg text-brand-grey space-y-6">
               <p>{t('about.bio1')}</p>
               <p>{t('about.bio2')}</p>
@@ -57,7 +56,7 @@ const About: React.FC = () => {
               <p className="text-brand-grey leading-relaxed">
                 {t('about.languagesDesc')}
               </p>
-              
+
               <div className="mt-6 flex flex-wrap gap-3">
                 {[
                   { code: 'it', label: 'Italiano 🇮🇹' },
@@ -65,7 +64,7 @@ const About: React.FC = () => {
                   { code: 'de', label: 'Deutsch 🇩🇪' },
                   { code: 'es', label: 'Español 🇪🇸' }
                 ].map((lang) => (
-                  <button 
+                  <button
                     key={lang.code}
                     onClick={() => i18n.changeLanguage(lang.code)}
                     className={`px-4 py-2 border border-brand-pink rounded-full text-sm font-medium transition-colors ${i18n.language === lang.code ? 'bg-brand-gold text-white' : 'bg-brand-ivory text-brand-charcoal hover:bg-brand-blush'}`}

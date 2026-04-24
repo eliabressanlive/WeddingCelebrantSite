@@ -14,7 +14,7 @@ const ProseccoImages: React.FC = () => {
             className="overflow-hidden rounded-2xl shadow-xl aspect-video"
           >
             <img 
-              src={`${import.meta.env.BASE_URL}images/prosecco_1.png`}  
+              src={`${import.meta.env.BASE_URL}images/backgrounds/prosecco_1.png`}  
               alt="Valdobbiadene Prosecco Hills 1" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
             />
@@ -28,7 +28,7 @@ const ProseccoImages: React.FC = () => {
             className="overflow-hidden rounded-2xl shadow-xl aspect-video"
           >
             <img 
-              src={`${import.meta.env.BASE_URL}images/prosecco_2.png`}  
+              src={`${import.meta.env.BASE_URL}images/backgrounds/prosecco_2.png`}  
               alt="Valdobbiadene Prosecco Hills 2" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
             />

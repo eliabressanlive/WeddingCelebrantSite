@@ -71,7 +71,7 @@ It's your big day! I'll be there at least 45 minutes before the ceremony starts 
 
 
 ## 6.My Complete Informations
-I am Noemi Bressa, a wedding celebrant based in Valdobbiadene, Italy i have a degree in english and german and i speak spanish fluently. I am mother language italian. In my work i organize events here in the prosecco hills and i am a Tour Leader, i have a lot of knowledge in my territory and i can suggest you the best places for your wedding and also for you vacation. my phone: 346 220 7237 and my email: no.bressan@gmail.com, instagram: @noemi_bres, facebook: Noemi Bressan
+I am Noemi Bressa, a wedding celebrant based in Valdobbiadene, Italy i have a degree in english and german and i speak spanish fluently. I am mother language italian. In my work i organize events here in the prosecco hills and i am a Tour Leader, i have a lot of knowledge in my territory and i can suggest you the best places for your wedding and also for you vacation. my phone: 346 220 7237 and my email: info.noemi.bressan@gmail.com, instagram: @noemi_bres, facebook: Noemi Bressan
 
 ## 7. Useful Links to get inspired
 - documentation/images folder 
