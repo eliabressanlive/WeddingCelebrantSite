@@ -30,7 +30,7 @@
       "t1": "Tour Leader",
       "d1": "Organizzo eventi e tour guidati nelle splendide Colline del Prosecco e provincia di Treviso.",
       "t2": "Presentatrice di Eventi",
-      "d2": "Presentazioni di libri o per per eventi aziendali e formali."
+      "d2": "Presentazioni di libri o di eventi aziendali e formali."
     },
     "addons": {
       "title": "Servizi Aggiuntivi",
@@ -95,5 +95,8 @@
     "cookiesConsent": "Questo sito utilizza i cookie per offrirti la migliore esperienza.",
     "accept": "Accetta",
     "decline": "Rifiuta"
+  },
+  "seo": {
+    "keywords": "celebrante matrimoni, Noemi Bressan, colline del prosecco, veneto, matrimonio in italia, cerimonie nuziali, matrimonio simbolico, rito civile, tour leader, presentatrice eventi, celebrante in inglese, celebrante in tedesco, celebrante in spagnolo"
   }
 }

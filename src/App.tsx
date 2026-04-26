@@ -9,6 +9,7 @@ import Process from './components/Process';
 import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import CookieBanner from './components/CookieBanner';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <FAQ />
       <Contact />
       <Footer />
+      <CookieBanner />
     </div>
   );
 }

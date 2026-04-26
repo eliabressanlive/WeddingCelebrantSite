@@ -17,7 +17,7 @@ Create a professional, catchy, modern, and mobile-responsive website for a weddi
 The website should include the following pages all in the same page with sections:
 
 ### A. Home
-- **Home**: A stunning background image with a compelling headline, focus on the language selection (italian, english, german and spanish).
+- **Home**: A stunning background image with a compelling headline and a call to action. Language selection is handled cleanly in the Navbar.
 
 ### B. About Me
 - **My Story**: My photo and a detailed biography of the celebrant, highlighting their background, passion for celebrancy, and personal philosophy. I am a celebrant based in Valdobbiadene, Italy, and I specialize in creating personalized wedding ceremonies for couples from all over the world. I am passionate about love and storytelling, and I believe that every couple deserves a ceremony that is as unique as their love story. I am mother language italian but i have a degree in english and german and i speak spanish fluently.
@@ -30,20 +30,14 @@ The website should include the following pages all in the same page with section
 
 ### D. Process
 - **Step-by-Step Guide**: A visual timeline or numbered list explaining the journey from initial contact to the wedding day 
-#### Booking request
-The first step is to check if I'm available for your wedding: you can easily use the form. If the day is selectable, it will schedule in my agenda a pre-reservation and I'll send you all the information within one day.
- 
-#### Let's get in touch!
-The second step is, of course, to figure out if I'm the right person that you are searching for. We will arrange an obligation-free video call or meeting. Once you've decided that I'm the one, we can go on. Bookings are confirmed upon receipt of deposit. In case of legal wedding, I'll guide you throughout all the documents required for the process.
- 
-#### The preparation
-My mission is to provide only the best experience, making the process enjoyable. I will take care of your wedding's speech that has to be a meaningful reflection of you both. You'll have access to your personal area where we can manage the rituals, readings, vows, and a few other details.
- 
-#### The town hall
-In the week leading up to your ceremony we will have to go to the town hall bringing all the documents and signing a couple of papers. Of course, again, I'll be always on your side helping you with the bureaucracy. Also, we can do a rehearsal in person (of course accordingly with the other weddings).
- 
-#### The ceremony
-It's your big day! I'll be there at least 45 minutes before the ceremony starts in order to ensure everything is ready. During the ceremony I'll be always there to handle all the expected things as well as what unexpectedly might happen. At the end, I'll be asked to sign the act of marriage and you'll collect the wedding certificate.
+#### The first step
+Without any obligation, we can organize a video call to evaluate together if I am the right person for your needs. Once the decision is made, we can move on to the next phases.
+
+#### Preparation of the ceremony
+I will take care of your speech so that it truly reflects who you are. Together we will define the phases of the ceremony, vows, and rituals, so that everything is prepared with care and in the smallest detail.
+
+#### The Ceremony
+It's your big day! I will be present at least 45 minutes in advance and will take care of every detail, from the beginning of the march to the signing of the certificate, to ensure a smooth and flawless ceremony.
 
 
 ### E. FAQ

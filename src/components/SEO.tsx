@@ -15,7 +15,7 @@ const SEO: React.FC = () => {
       <title>{title}</title>
       <meta name="title" content={title} />
       <meta name="description" content={description} />
-      <meta name="keywords" content="wedding celebrant, celebrante matrimoni, Noemi Bressan, prosecco hills, veneto, italy wedding, destination wedding italy, cerimonie nuziali, symbolic wedding, civil ceremony, english speaking celebrant italy, german speaking celebrant italy, spanish speaking celebrant italy" />
+      <meta name="keywords" content={t('seo.keywords')} />
       <meta name="author" content="Noemi Bressan" />
 
       {/* Open Graph / Facebook */}

@@ -22,13 +22,13 @@ const tourLeaderImages = [
 ];
 
 const eventImages = [
+  "1000324931.jpg",
+  "1000324935.jpg",
+  "1000324937.jpg",
+  "1000324938.jpg",
   "Primavera P.co'25-1.jpg",
-  "Primavera P.co'25-4.jpg",
-  "Primavera P.co'25-5.jpg",
-  "Primavera P.co'25-57.jpg",
-  "Primavera P.co'25-6.jpg",
   "Primavera P.co'25-7.jpg",
-];
+].sort(() => Math.random() - 0.5);
 
 type ServiceId = 'wedding' | 'tour' | 'events' | null;
 
