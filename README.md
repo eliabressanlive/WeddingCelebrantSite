@@ -44,7 +44,7 @@ I used this project to study better how react works and how to build a fully SEO
 | Icons | [Lucide React](https://lucide.dev/) |
 | SEO | [react-helmet-async](https://github.com/staylor/react-helmet-async) |
 | Smooth Scroll | [react-scroll](https://github.com/fisshy/react-scroll) |
-| Hosting | [GitHub Pages](https://pages.github.com/) with custom domain |
+| Hosting | [GitHub Pages](https://pages.github.com/) with custom domain in register.it |
 
 ---
 
