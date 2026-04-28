@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-scroll';
-import { Menu, X, Globe } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Navbar: React.FC = () => {
   const { t, i18n } = useTranslation();
@@ -10,11 +10,13 @@ const Navbar: React.FC = () => {
   const [langMenuOpen, setLangMenuOpen] = useState(false);
 
   const languages = [
-    { code: 'it', label: 'IT' },
-    { code: 'en', label: 'EN' },
-    { code: 'de', label: 'DE' },
-    { code: 'es', label: 'ES' }
+    { code: 'it', label: 'IT', flag: '🇮🇹' },
+    { code: 'en', label: 'EN', flag: '🇬🇧' },
+    { code: 'de', label: 'DE', flag: '🇩🇪' },
+    { code: 'es', label: 'ES', flag: '🇪🇸' }
   ];
+
+  const currentLang = languages.find(l => l.code === i18n.language) || languages[0];
 
   const sections = ['home', 'about', 'services', 'process', 'faq', 'contact'];
 
@@ -66,19 +68,19 @@ const Navbar: React.FC = () => {
                 onClick={() => setLangMenuOpen(!langMenuOpen)}
                 className={`flex items-center space-x-1 hover:text-brand-gold transition-colors ${scrolled ? 'text-brand-charcoal' : 'text-white'}`}
               >
-                <Globe size={18} />
-                <span className="text-sm font-medium uppercase">{i18n.language}</span>
+                <span className="text-lg">{currentLang.flag}</span>
+                <span className="text-sm font-medium uppercase">{currentLang.label}</span>
               </button>
 
               {langMenuOpen && (
-                <div className="absolute right-0 mt-2 w-24 bg-white shadow-lg rounded-md overflow-hidden">
+                <div className="absolute right-0 mt-2 w-28 bg-white shadow-lg rounded-md overflow-hidden">
                   {languages.map(lang => (
                     <button
                       key={lang.code}
                       onClick={() => changeLanguage(lang.code)}
-                      className={`block w-full text-left px-4 py-2 text-sm hover:bg-brand-blush ${i18n.language === lang.code ? 'font-bold text-brand-gold' : 'text-brand-charcoal'}`}
+                      className={`w-full text-left px-4 py-2 text-sm hover:bg-brand-blush flex items-center space-x-2 ${i18n.language === lang.code ? 'font-bold text-brand-gold' : 'text-brand-charcoal'}`}
                     >
-                      {lang.label}
+                      <span>{lang.label}</span>
                     </button>
                   ))}
                 </div>
@@ -115,14 +117,15 @@ const Navbar: React.FC = () => {
               </Link>
             ))}
 
-            <div className="flex justify-center space-x-4 pt-4 border-t border-brand-pink/30">
+            <div className="flex justify-center space-x-6 pt-4 border-t border-brand-pink/30">
               {languages.map(lang => (
                 <button
                   key={lang.code}
                   onClick={() => changeLanguage(lang.code)}
-                  className={`text-lg font-medium ${i18n.language === lang.code ? 'text-brand-gold font-bold' : 'text-brand-charcoal'}`}
+                  className={`flex flex-col items-center space-y-1 ${i18n.language === lang.code ? 'text-brand-gold font-bold' : 'text-brand-charcoal'}`}
                 >
-                  {lang.label}
+                  <span className="text-2xl leading-none">{lang.flag}</span>
+                  <span className="text-xs font-medium uppercase">{lang.label}</span>
                 </button>
               ))}
             </div>

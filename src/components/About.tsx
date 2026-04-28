@@ -1,7 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import { Languages } from 'lucide-react';
 
 const About: React.FC = () => {
   const { t, i18n } = useTranslation();
@@ -44,12 +43,12 @@ const About: React.FC = () => {
             </div>
 
             <div className="mt-12 bg-white rounded-2xl shadow-sm border border-brand-pink p-8 relative overflow-hidden">
-              <div className="absolute top-0 right-0 p-4 opacity-5 text-brand-charcoal">
-                <Languages size={100} />
-              </div>
               <div className="flex items-center space-x-4 mb-4">
-                <div className="p-3 bg-brand-blush rounded-full text-brand-gold">
-                  <Languages size={24} />
+                <div className="px-3 py-1.5 bg-brand-blush rounded-full text-xl flex gap-1.5 select-none">
+                  <span>🇮🇹</span>
+                  <span>🇬🇧</span>
+                  <span>🇩🇪</span>
+                  <span>🇪🇸</span>
                 </div>
                 <h3 className="text-2xl font-serif text-brand-charcoal">{t('about.languages')}</h3>
               </div>

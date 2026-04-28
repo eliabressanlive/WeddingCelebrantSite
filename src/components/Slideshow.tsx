@@ -11,21 +11,16 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 const imageFiles = [
-  '14 Damiano 85mm -16 settembre 2023.jpg',
-  'WhatsApp Image 2026-03-09 at 20.00.10 (1).jpeg',
-  'IMG-20250202-WA0025.jpg',
-  '76 Damiano 85mm -16 settembre 2023.jpg',
   'IMG-20250202-WA0028.jpg',
+  'WhatsApp Image 2026-03-09 at 20.00.10 (1).jpeg',
+  '14 Damiano 85mm -16 settembre 2023.jpg',
+  'IMG-20250202-WA0025.jpg',
   'WhatsApp Image 2026-03-09 at 20.00.10 (4).jpeg',
   '290 Damiano 28 75mm-16 settembre 2023.jpg',
-  'WhatsApp Image 2026-03-09 at 20.00.10.jpeg',
+  '76 Damiano 85mm -16 settembre 2023.jpg',
 ];
 
 const Slideshow: React.FC = () => {
-  const randomizedImages = useMemo(() => {
-    return [...imageFiles].sort(() => Math.random() - 0.5);
-  }, []);
-
   return (
     <section className="py-12 bg-emerald-50/70">
       <div className="max-w-9xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -50,7 +45,7 @@ const Slideshow: React.FC = () => {
           }}
           className="w-full h-[400px] md:h-[500px]"
         >
-          {randomizedImages.map((filename, idx) => (
+          {imageFiles.map((filename, idx) => (
             <SwiperSlide key={filename} className="flex justify-center items-center overflow-hidden rounded-2xl shadow-lg border-2 border-emerald-200/60">
               <img
                 src={`${import.meta.env.BASE_URL}images/weddings/${filename}`}

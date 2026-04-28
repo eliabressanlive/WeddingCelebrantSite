@@ -28,9 +28,6 @@ const ServiceGalleryModal: React.FC<ServiceGalleryModalProps> = ({
   images,
   folder,
 }) => {
-  const randomizedImages = useMemo(() => {
-    return [...images].sort(() => Math.random() - 0.5);
-  }, [images]);
 
   // Prevent body scroll when modal is open
   useEffect(() => {
@@ -94,10 +91,10 @@ const ServiceGalleryModal: React.FC<ServiceGalleryModalProps> = ({
                 navigation
                 pagination={{ clickable: true }}
                 autoplay={{ delay: 4500, disableOnInteraction: true }}
-                loop={randomizedImages.length > 1}
+                loop={images.length > 1}
                 className="w-full rounded-2xl overflow-hidden"
               >
-                {randomizedImages.map((filename, idx) => (
+                {images.map((filename, idx) => (
                   <SwiperSlide key={filename}>
                     <div className="relative w-full aspect-[16/10] bg-black/40 rounded-2xl overflow-hidden flex items-center justify-center">
                       <img
@@ -113,7 +110,7 @@ const ServiceGalleryModal: React.FC<ServiceGalleryModalProps> = ({
 
               {/* Image counter */}
               <p className="text-center text-white/50 text-sm mt-4">
-                {randomizedImages.length} {randomizedImages.length === 1 ? 'photo' : 'photos'}
+                {images.length} {images.length === 1 ? 'photo' : 'photos'}
               </p>
             </div>
           </motion.div>

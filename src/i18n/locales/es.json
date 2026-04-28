@@ -4,37 +4,37 @@
     "about": "Sobre Mí",
     "services": "Servicios",
     "process": "El Proceso",
-    "faq": "Preguntas Frecuentes",
+    "faq": "FAQ",
     "contact": "Contacto"
   },
   "hero": {
-    "title": "Celebrando el Amor, a Su Manera",
-    "subtitle": "Ceremonias de boda únicas y personalizadas en las colinas de Prosecco y más allá.",
-    "cta": "Comienza tu viaje"
+    "title": "Celebrando el Amor, a Vuestra Manera",
+    "subtitle": "Ceremonias de boda únicas y personalizadas en las Colinas del Prosecco y más allá.",
+    "cta": "Comienza vuestro viaje"
   },
   "about": {
     "title": "Mi Historia",
-    "bio1": "¡Hola, soy Noemi Bressan! Soy una oficiante con sede en Valdobbiadene, en el corazón de las encantadoras colinas venecianas del Prosecco. Me especializo en crear ceremonias de boda personalizadas para parejas de todo el mundo.",
-    "bio2": "Apasionada por el amor sincero, creo firmemente que cada pareja merece una ceremonia tan única como su propia historia de amor. La empatía, disponibilidad, flexibilidad y algunos consejos útiles para hacer ese día realmente especial son mis prioridades.",
+    "bio1": "Hola, soy Noemi Bressan. Soy oficiante de bodas con sede en Pieve di Soligo, en el corazón de las encantadoras Colinas del Prosecco en el Véneto. Me especializo en la creación de ceremonias de boda personalizadas para parejas de todo el mundo.",
+    "bio2": "Creo firmemente que cada pareja merece una ceremonia tan única como su historia de amor. Empatía, disponibilidad, flexibilidad... y algunos consejos útiles para que ese día sea realmente especial.",
     "languages": "Idiomas Hablados",
-    "languagesDesc": "El idioma no debe ser una barrera para el amor. Soy hablante nativa de italiano y tengo una licenciatura en inglés y alemán. También hablo español con fluidez, lo que me permitirá narrar su ceremonia en diferentes idiomas."
+    "languagesDesc": "El idioma nunca es una barrera para el amor. Soy hablante nativa de italiano y tengo una licenciatura en inglés y alemán. También hablo español con fluidez, lo que me permitirá narrar vuestra ceremonia en diferentes idiomas."
   },
   "services": {
     "title": "Mis Servicios",
     "wedding": {
       "title": "Ceremonias de Boda",
-      "desc": "Diseño compartido de la ceremonia. Desde retiros simbólicos hasta oficiales con delegación civil, transmito la emoción de las historias y de su viaje de vida. Textos y rituales completamente personalizables en cualquiera de los idiomas que hablo."
+      "desc": "Diseño compartido de la ceremonia. Desde retiros simbólicos hasta oficiales con delegación, transmito la emoción de las historias y de vuestro camino de vida. Textos y rituales totalmente personalizables en cualquiera de los idiomas que hablo."
     },
     "other": {
       "title": "Otros Servicios",
-      "t1": "Líder de Tour",
-      "d1": "Organizo eventos y visitas guiadas en las hermosas colinas de Prosecco y la provincia de Treviso.",
+      "t1": "Guía Turística",
+      "d1": "Soy guía turística licenciada. Acompaño a grupos o particulares a descubrir mi territorio, las Colinas del Prosecco de Conegliano y Valdobbiadene, y toda la provincia de Treviso. Organizo tours a medida, convirtiendo cada viaje en un recuerdo especial.",
       "t2": "Presentadora de Eventos",
-      "d2": "Presentaciones de libros o para eventos corporativos y formales."
+      "d2": "Conduzco inauguraciones, presentaciones de libros, encuentros culturales y eventos institucionales con elegancia, naturalidad y profesionalidad. Creando un ambiente envolvente, con atención al contenido y al tono más adecuado para el contexto, daré voz y ritmo a cada ocasión especial."
     },
     "addons": {
       "title": "Servicios Adicionales",
-      "desc": "Inspecciones de lugares, consejos de ubicación, contacto directo con testigos, disponibilidad para viajar fuera de la región y al extranjero. Puedo proporcionar contactos con excelentes profesionales como ingenieros de sonido, DJs y bandas de jazz."
+      "desc": "Inspecciones de lugares, consejos sobre ubicaciones, contactos directos con testigos, disponibilidad para viajar fuera de la región y al extranjero. Puedo facilitar contactos con excelentes profesionales como ingenieros de sonido, DJs y bandas de jazz."
     },
     "viewGallery": "Galería"
   },
@@ -42,61 +42,61 @@
     "title": "Cómo Trabajaremos Juntos",
     "step1": {
       "title": "El primer paso",
-      "desc": "Sin ningún compromiso, podemos organizar una videollamada para evaluar juntos si soy la persona adecuada para sus necesidades. Una vez tomada la decisión, podemos pasar a las siguientes fases."
+      "desc": "Sin ningún compromiso, podemos organizar una videollamada para evaluar juntos si soy la persona adecuada para vuestras necesidades. Una vez tomada la decisión, podremos pasar a las siguientes fases."
     },
     "step2": {
       "title": "Preparación de la ceremonia",
-      "desc": "Me encargaré de su discurso para que realmente refleje quiénes son. Juntos definiremos las fases de la ceremonia, los votos y los rituales, para que todo esté preparado con cuidado y hasta el más mínimo detalle."
+      "desc": "Me ocuparé de vuestro discurso para que refleje verdaderamente quiénes sois. Juntos definiremos las fases de la ceremonia, los votos y los rituales, para que todo esté preparado con cuidado y hasta el más mínimo detalle."
     },
     "step3": {
       "title": "La Ceremonia",
-      "desc": "¡Es su gran día! Estaré presente con al menos 45 minutos de anticipación y me encargaré de cada detalle, desde el inicio de la marcha hasta la firma del certificado, para garantizar una ceremonia fluida e impecable."
+      "desc": "¡Es vuestro gran día! Estaré presente con al menos 45 minutos de antelación y me ocuparé de cada detalle, desde la entrada de los novios hasta la firma del certificado, para garantizar una ceremonia fluida e impecable."
     }
   },
   "faq": {
     "title": "Preguntas Frecuentes",
     "reviewsTitle": "Lo que dicen las parejas",
     "q1": "¿Puedes celebrar bodas con valor legal?",
-    "a1": "¡Sí! Estoy disponible para celebrar tanto ceremonias simbólicas como ritos oficiales con delegación civil.",
-    "q2": "¿Celebras también en el extranjero?",
-    "a2": "Absolutamente sí. Estoy disponible para viajar fuera de la región de Véneto y fuera de Italia.",
+    "a1": "¡Sí! Estoy disponible para celebrar tanto ceremonias simbólicas como ritos civiles oficiales con delegación.",
+    "q2": "¿También celebras en el extranjero?",
+    "a2": "Absolutamente sí. Estoy disponible para viajar fuera del Véneto y fuera de Italia.",
     "q3": "¿Proporcionas el sistema de audio?",
-    "a3": "Puedo ayudarles proporcionando contactos para sistemas de audio con micrófonos profesionales o música grabada extra, desde la ceremonia hasta la fiesta.",
-    "q4": "¿Conoces bandas para música en vivo?",
+    "a3": "Puedo ayudaros proporcionando contactos para sistemas de audio con micrófonos profesionales o música grabada extra, desde la ceremonia hasta la fiesta.",
+    "q4": "¿Conoces bandas de música en vivo?",
     "a4": "¡Ciertamente! Tengo contactos con bandas locales, especialmente de jazz y acústicas."
   },
   "reviews": [
     {
       "name": "Giulia & Denis",
-      "text": "Noemi ha hecho que nuestro día sea inolvidable. Escribió una ceremonia que realmente hablaba de nosotros, conmoviendo a todos los invitados. Su dulzura es inigualable."
+      "text": "Noemi hizo que nuestro día fuera inolvidable. Escribió una ceremonia que realmente hablaba de nosotros, conmoviendo a todos los invitados. Su dulzura es incomparable."
     },
     {
       "name": "Sarah & Tom",
-      "text": "We met Noemi and instantly clicked. She delivered our entire ceremony flawlessly in both Italian and English. Our international guests felt completely involved!"
+      "text": "Conocimos a Noemi y conectamos al instante. Ofició toda nuestra ceremonia de manera impecable en italiano e inglés. ¡Nuestros invitados internacionales se sintieron completamente involucrados!"
     },
     {
       "name": "Elena & Roberto",
-      "text": "Una experiencia fantástica. Nos ayudó a preparar todo, desde los documentos hasta los votos, con calma y profesionalidad. ¡Muy recomendada!"
+      "text": "Una experiencia fantástica. Nos ayudó a preparar todo, desde los documentos hasta los votos, con calma y profesionalidad. ¡Muy recomendable!"
     }
   ],
   "contact": {
     "title": "Contáctame",
     "name": "Nombre*",
-    "email": "Correo Electrónico*",
+    "email": "Email*",
     "phone": "Teléfono",
-    "message": "Escribe tu mensaje y te contactaré lo antes posible",
+    "message": "Escribid vuestro mensaje y me pondré en contacto con vosotros lo antes posible",
     "submit": "Enviar Mensaje",
     "sending": "Enviando...",
-    "success": "¡Gracias! Te contactaré lo antes posible.",
+    "success": "¡Gracias! Me pondré en contacto con vosotros lo antes posible.",
     "error": "Error al enviar. Por favor, inténtalo de nuevo más tarde."
   },
   "footer": {
     "rights": "Todos los derechos reservados.",
-    "cookiesConsent": "Este sitio utiliza cookies para ofrecerte la mejor experiencia.",
+    "cookiesConsent": "Este sitio utiliza cookies para ofreceros la mejor experiencia.",
     "accept": "Aceptar",
     "decline": "Rechazar"
   },
   "seo": {
-    "keywords": "oficiante de bodas, Noemi Bressan, colinas de prosecco, véneto, boda en italia, destino de boda italia, boda simbólica, ceremonia civil, líder de tour, presentadora de eventos, oficiante hispanohablante en italia"
+    "keywords": "oficiante de bodas, Noemi Bressan, colinas del prosecco, véneto, boda en italia, ceremonias de boda, boda simbólica, rito civil, guía turística, presentadora de eventos, oficiante en inglés, oficiante en alemán, oficiante en español"
   }
 }

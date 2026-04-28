@@ -9,15 +9,15 @@
   },
   "hero": {
     "title": "Celebrare L'Amore, a Modo Vostro",
-    "subtitle": "Cerimonie nuziali uniche e personalizzate nelle colline del Prosecco e oltre.",
+    "subtitle": "Cerimonie nuziali uniche e personalizzate sulle Colline del Prosecco e oltre.",
     "cta": "Inizia il tuo percorso"
   },
   "about": {
     "title": "La Mia Storia",
-    "bio1": "Ciao, sono Noemi Bressan! Sono una celebrante con sede a Valdobbiadene, nel cuore delle incantevoli colline venete del Prosecco. Sono specializzata nella creazione di cerimonie nuziali personali per coppie provenienti da tutto il mondo.",
-    "bio2": "Appassionata dell'amore sincero, credo fermamente che ogni coppia meriti una cerimonia unica come la propria storia d'amore. Empatia, disponibilità, flessibilità e qualche consiglio utile a rendere quel giorno davvero speciale sono le mie priorità.",
+    "bio1": "Ciao, sono Noemi Bressan. Sono una celebrante con sede a Pieve di Soligo, nel cuore delle incantevoli Colline del Prosecco, in Veneto. Sono specializzata nella creazione di cerimonie nuziali personalizzate per coppie provenienti da tutto il mondo.",
+    "bio2": "Credo fermamente che ogni coppia meriti una cerimonia unica come la propria storia d'amore. Empatia, disponibilità, flessibilità.. e qualche consiglio utile a rendere quel giorno davvero speciale. ",
     "languages": "Lingue Parlate",
-    "languagesDesc": "La lingua non deve essere una barriera per l'amore. Sono di madrelingua italiana e ho una laurea in inglese e tedesco. Parlo fluentemente anche lo spagnolo, il che mi permetterà di raccontare la vostra cerimonia in lingue diverse."
+    "languagesDesc": "La lingua non è mai una barriera per l'amore. Sono di madrelingua italiana e ho una laurea in inglese e tedesco. Parlo fluentemente anche lo spagnolo, il che mi permetterà di raccontare la vostra cerimonia in lingue diverse."
   },
   "services": {
     "title": "I Miei Servizi",
@@ -28,13 +28,13 @@
     "other": {
       "title": "Altri Servizi",
       "t1": "Tour Leader",
-      "d1": "Organizzo eventi e tour guidati nelle splendide Colline del Prosecco e provincia di Treviso.",
+      "d1": "Sono un'accompagnatrice turistica con patentino. Accompagno gruppi o singoli alla scoperta del mio territorio, le Colline del Prosecco di Conegliano e Valdobbiadene, e di tutta la provincia di Treviso. Organizzo tour su misura, trasformando ogni viaggio in un ricordo speciale",
       "t2": "Presentatrice di Eventi",
-      "d2": "Presentazioni di libri o di eventi aziendali e formali."
+      "d2": "Conduco inaugurazioni, presentazioni di libri, incontri culturali ed eventi istituzionali con eleganza, naturalezza e professionalità. Creando un clima coinvolgente, con attenzione ai contenuti e al tono più adatto al contesto, darò voce e ritmo ad ogni occasione speciale."
     },
     "addons": {
       "title": "Servizi Aggiuntivi",
-      "desc": "Sopralluoghi, consigli sulle location, contatti diretti con testimoni, disponibilità a viaggiare fuori regione e all'estero. Posso fornire contatti con eccellenti professionisti come ingegneri del suono, DJ e jazz band."
+      "desc": "Sopralluoghi, consigli sulle location, contatti diretti con testimoni, disponibilità a viaggiare fuori regione e all'estero. Posso fornire contatti con eccellenti professionisti come fonici, DJ e jazz band."
     },
     "viewGallery": "Galleria"
   },
@@ -50,7 +50,7 @@
     },
     "step3": {
       "title": "La Cerimonia",
-      "desc": "È il vostro grande giorno! Sarò presente con almeno 45 minuti di anticipo e mi occuperò di ogni dettaglio, dall’inizio della marcia fino alla firma del certificato, per garantirvi una cerimonia fluida e impeccabile."
+      "desc": "È il vostro grande giorno! Sarò presente con almeno 45 minuti di anticipo e mi occuperò di ogni dettaglio, dall’ingresso degli sposi fino alla firma del certificato, per garantirvi una cerimonia fluida e impeccabile."
     }
   },
   "faq": {

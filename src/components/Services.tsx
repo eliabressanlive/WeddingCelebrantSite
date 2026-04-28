@@ -6,29 +6,29 @@ import ServiceGalleryModal from './ServiceGalleryModal';
 
 /* ── Image file lists per service ── */
 const weddingImages = [
+  'IMG-20250202-WA0025.jpg',
   '14 Damiano 85mm -16 settembre 2023.jpg',
   'WhatsApp Image 2026-03-09 at 20.00.10 (1).jpeg',
-  'IMG-20250202-WA0025.jpg',
   '76 Damiano 85mm -16 settembre 2023.jpg',
   'IMG-20250202-WA0028.jpg',
   'WhatsApp Image 2026-03-09 at 20.00.10 (4).jpeg',
   '290 Damiano 28 75mm-16 settembre 2023.jpg',
-  'WhatsApp Image 2026-03-09 at 20.00.10.jpeg',
 ];
 
 const tourLeaderImages = [
-  'prosecco_1.png',
-  'prosecco_2.png',
+  'IMG-20240919-WA0016.jpg',
+  'IMG-20251214-WA0020.jpg',
+  'PXL_20260426_145033654.jpg',
 ];
 
 const eventImages = [
-  "1000324931.jpg",
-  "1000324935.jpg",
-  "1000324937.jpg",
-  "1000324938.jpg",
+  'FB_IMG_1773166900952.jpg',
   "Primavera P.co'25-1.jpg",
+  "1000324931.jpg",
   "Primavera P.co'25-7.jpg",
-].sort(() => Math.random() - 0.5);
+  'IMG-20250921-WA0023.jpg',
+  "1000324938.jpg",
+];
 
 type ServiceId = 'wedding' | 'tour' | 'events' | null;
 
