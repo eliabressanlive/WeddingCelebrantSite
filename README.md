@@ -1,6 +1,6 @@
 # Wedding Celebrant Website
 
-> **Live:** [noemiweddings.it](https://noemiweddings.it)
+> **Live:** [proseccoweddings.it](https://proseccoweddings.it)
 
 This is a website built for my sister **Noemi**, tour leader, wedding celebrant and event presenter based in Valdobbiadene in the UNESCO Prosecco Hills.
 I used this project to study better how react works and how to build a fully SEO optimized website. It was also a test to see the limits and capabilities of all the new generation AI Tools.
@@ -64,7 +64,7 @@ WeddingCelebrantSite/
 │   └── workflows/
 │       └── deploy.yml          # GitHub Actions CI/CD pipeline
 ├── public/
-│   ├── CNAME                   # Custom domain config (noemiweddings.it)
+│   ├── CNAME                   # Custom domain config (proseccoweddings.it)
 │   ├── favicon.svg             # Site favicon
 │   ├── hero-bg.jpg             # Hero section background
 │   └── images/
@@ -199,7 +199,7 @@ Every push to `main` or `master` triggers the deployment pipeline defined in `.g
 
 ### Custom Domain
 
-The site is served at **[noemiweddings.it](https://noemiweddings.it)** via the `public/CNAME` file. DNS is configured with:
+The site is served at **[proseccoweddings.it](https://proseccoweddings.it)** via the `public/CNAME` file. DNS is configured with:
 
 - **A records** pointing to GitHub Pages IPs
 - **CNAME record** for `www` subdomain
