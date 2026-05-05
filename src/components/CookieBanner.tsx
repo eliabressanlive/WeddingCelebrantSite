@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
+import { initGA, disableGA } from '../utils/analytics';
 
 const CookieBanner: React.FC = () => {
   const { t } = useTranslation();
@@ -10,16 +11,21 @@ const CookieBanner: React.FC = () => {
     const consent = localStorage.getItem('cookieConsent');
     if (!consent) {
       setIsVisible(true);
+    } else if (consent === 'accepted') {
+      // If user previously accepted, initialize GA on page load
+      initGA();
     }
   }, []);
 
   const handleAccept = () => {
     localStorage.setItem('cookieConsent', 'accepted');
+    initGA();
     setIsVisible(false);
   };
 
   const handleDecline = () => {
     localStorage.setItem('cookieConsent', 'declined');
+    disableGA();
     setIsVisible(false);
   };
 

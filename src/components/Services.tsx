@@ -3,6 +3,8 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Heart, Compass, Mic, Sparkles, Camera } from 'lucide-react';
 import ServiceGalleryModal from './ServiceGalleryModal';
+import { useSectionTracking } from '../hooks/useSectionTracking';
+import { trackClick } from '../utils/analytics';
 
 /* ── Image file lists per service ── */
 const weddingImages = [
@@ -35,6 +37,12 @@ type ServiceId = 'wedding' | 'tour' | 'events' | null;
 const Services: React.FC = () => {
   const { t } = useTranslation();
   const [activeGallery, setActiveGallery] = useState<ServiceId>(null);
+  const sectionRef = useSectionTracking('Services');
+
+  const openGallery = (id: ServiceId) => {
+    setActiveGallery(id);
+    if (id) trackClick('Gallery', `open_${id}`);
+  };
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -61,7 +69,7 @@ const Services: React.FC = () => {
 
   return (
     <>
-      <section id="services" className="relative py-24 overflow-hidden">
+      <section ref={sectionRef} id="services" className="relative py-24 overflow-hidden">
         {/* ── Background image ── */}
         <div className="absolute inset-0 z-0">
           <img
@@ -108,7 +116,7 @@ const Services: React.FC = () => {
               variants={itemVariants}
               whileHover={{ y: -4 }}
               transition={{ type: 'spring', stiffness: 300, damping: 20 }}
-              onClick={() => setActiveGallery('wedding')}
+              onClick={() => openGallery('wedding')}
               className="group relative md:col-span-2 backdrop-blur-md bg-white/50 border border-white/70 rounded-2xl p-10 shadow-lg shadow-brand-pink/10 hover:shadow-xl hover:shadow-brand-gold/15 transition-shadow duration-500 overflow-hidden cursor-pointer"
             >
               {/* Gold accent line at top */}
@@ -146,7 +154,7 @@ const Services: React.FC = () => {
               variants={itemVariants}
               whileHover={{ y: -4 }}
               transition={{ type: 'spring', stiffness: 300, damping: 20 }}
-              onClick={() => setActiveGallery('tour')}
+              onClick={() => openGallery('tour')}
               className="group relative backdrop-blur-md bg-white/50 border border-white/70 rounded-2xl p-10 shadow-lg shadow-brand-pink/10 hover:shadow-xl hover:shadow-brand-gold/15 transition-shadow duration-500 overflow-hidden cursor-pointer"
             >
               <div className="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-transparent via-brand-gold/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
@@ -180,7 +188,7 @@ const Services: React.FC = () => {
               variants={itemVariants}
               whileHover={{ y: -4 }}
               transition={{ type: 'spring', stiffness: 300, damping: 20 }}
-              onClick={() => setActiveGallery('events')}
+              onClick={() => openGallery('events')}
               className="group relative backdrop-blur-md bg-white/50 border border-white/70 rounded-2xl p-10 shadow-lg shadow-brand-pink/10 hover:shadow-xl hover:shadow-brand-gold/15 transition-shadow duration-500 overflow-hidden cursor-pointer"
             >
               <div className="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-transparent via-brand-gold/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />

@@ -1,9 +1,11 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+import { useSectionTracking } from '../hooks/useSectionTracking';
 
 const Process: React.FC = () => {
   const { t } = useTranslation();
+  const sectionRef = useSectionTracking('Process');
 
   const steps = [
     { num: '01', titleKey: 'step1.title', descKey: 'step1.desc' },
@@ -13,6 +15,7 @@ const Process: React.FC = () => {
 
   return (
     <section
+      ref={sectionRef}
       id="process"
       className="relative py-24 text-brand-charcoal overflow-hidden"
     >

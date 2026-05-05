@@ -4,6 +4,8 @@ import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 import { MapContainer, TileLayer, CircleMarker } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
+import { useSectionTracking } from '../hooks/useSectionTracking';
+import { trackFormSubmit, trackOutboundLink } from '../utils/analytics';
 // removed unused lucide-react icons
 
 const InstagramIcon = () => (
@@ -23,6 +25,7 @@ const FacebookIcon = () => (
 const Contact: React.FC = () => {
   const { t } = useTranslation();
   const formRef = useRef<HTMLFormElement>(null);
+  const sectionRef = useSectionTracking('Contact');
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
@@ -64,6 +67,7 @@ const Contact: React.FC = () => {
     )
       .then(() => {
         setSubmitStatus('success');
+        trackFormSubmit('contact', true);
         formRef.current?.reset();
         setCaptchaAnswer('');
         setNum1(Math.floor(Math.random() * 10) + 1);
@@ -72,6 +76,7 @@ const Contact: React.FC = () => {
       .catch((error) => {
         console.error('FAILED...', error.text);
         setSubmitStatus('error');
+        trackFormSubmit('contact', false);
       })
       .finally(() => {
         setIsSubmitting(false);
@@ -82,7 +87,7 @@ const Contact: React.FC = () => {
   const emailAddress = 'info.noemi.bressan@gmail.com';
 
   return (
-    <section id="contact" className="py-24 bg-brand-ivory relative">
+    <section ref={sectionRef} id="contact" className="py-24 bg-brand-ivory relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div className="text-center mb-16">
@@ -199,10 +204,10 @@ const Contact: React.FC = () => {
                 <div className="pt-8">
                   <p className="text-sm text-white/50 mb-4 uppercase tracking-wider">Social</p>
                   <div className="flex space-x-4">
-                    <a href="https://instagram.com/noemi_bres" target="_blank" rel="noreferrer" className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center hover:bg-brand-gold transition-colors">
+                    <a href="https://instagram.com/noemi_bres" target="_blank" rel="noreferrer" onClick={() => trackOutboundLink('instagram.com/noemi_bres')} className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center hover:bg-brand-gold transition-colors">
                       <InstagramIcon />
                     </a>
-                    <a href="https://www.facebook.com/share/1BZfjLeqSr/" target="_blank" rel="noreferrer" className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center hover:bg-brand-gold transition-colors">
+                    <a href="https://www.facebook.com/share/1BZfjLeqSr/" target="_blank" rel="noreferrer" onClick={() => trackOutboundLink('facebook.com/share/1BZfjLeqSr')} className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center hover:bg-brand-gold transition-colors">
                       <FacebookIcon />
                     </a>
                   </div>

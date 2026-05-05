@@ -2,12 +2,15 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-scroll';
 import { motion } from 'framer-motion';
+import { useSectionTracking } from '../hooks/useSectionTracking';
+import { trackClick } from '../utils/analytics';
 
 const Hero: React.FC = () => {
   const { t } = useTranslation();
+  const sectionRef = useSectionTracking('Hero');
 
   return (
-    <section id="home" className="relative h-[100svh] min-h-[100svh] md:h-screen md:min-h-screen flex items-center justify-center overflow-hidden bg-brand-charcoal">
+    <section ref={sectionRef} id="home" className="relative h-[100svh] min-h-[100svh] md:h-screen md:min-h-screen flex items-center justify-center overflow-hidden bg-brand-charcoal">
       <div
         className="
             absolute inset-0 
@@ -52,6 +55,7 @@ const Hero: React.FC = () => {
             to="about"
             smooth={true}
             duration={200}
+            onClick={() => trackClick('CTA', 'hero_start_journey')}
             className="cursor-pointer inline-block bg-brand-gold text-white px-8 py-4 rounded-full text-sm uppercase tracking-widest font-semibold hover:bg-brand-gold/90 transition-all shadow-lg hover:shadow-xl hover:-translate-y-1"
           >
             {t('hero.cta')}

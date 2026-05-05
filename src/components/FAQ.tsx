@@ -2,10 +2,13 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
+import { useSectionTracking } from '../hooks/useSectionTracking';
+import { trackClick } from '../utils/analytics';
 
 const FAQ: React.FC = () => {
   const { t } = useTranslation();
   const [openIndex, setOpenIndex] = useState<number | null>(0);
+  const sectionRef = useSectionTracking('FAQ');
 
   const faqs = [
     { q: 'faq.q1', a: 'faq.a1' },
@@ -17,7 +20,7 @@ const FAQ: React.FC = () => {
   const reviews = t('reviews', { returnObjects: true }) as Array<{ name: string, text: string }>;
 
   return (
-    <section id="faq" className="relative py-24 overflow-hidden">
+    <section ref={sectionRef} id="faq" className="relative py-24 overflow-hidden">
       {/* Light floral background */}
       <div
         className="absolute inset-0 z-0 opacity-40"
@@ -46,7 +49,7 @@ const FAQ: React.FC = () => {
               {faqs.map((faq, index) => (
                 <div key={index} className="border border-brand-pink/50 rounded-2xl overflow-hidden bg-brand-ivory/30">
                   <button
-                    onClick={() => setOpenIndex(openIndex === index ? null : index)}
+                    onClick={() => { setOpenIndex(openIndex === index ? null : index); trackClick('FAQ', `toggle_q${index + 1}`); }}
                     className="w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none"
                   >
                     <span className="font-medium text-lg text-brand-charcoal">{t(faq.q)}</span>

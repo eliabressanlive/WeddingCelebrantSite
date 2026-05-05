@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-scroll';
 import { Menu, X } from 'lucide-react';
+import { trackLanguageChange } from '../utils/analytics';
 
 const Navbar: React.FC = () => {
   const { t, i18n } = useTranslation();
@@ -30,6 +31,7 @@ const Navbar: React.FC = () => {
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
+    trackLanguageChange(lng);
     setLangMenuOpen(false);
     setIsOpen(false);
   };
