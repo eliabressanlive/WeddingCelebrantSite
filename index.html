@@ -43,22 +43,48 @@
   <meta name="geo.region" content="IT-TV" />
   <meta name="geo.placename" content="Pieve di Soligo" />
 
-  <!-- JSON-LD Structured Data -->
+  <!-- JSON-LD Structured Data: WebSite -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Prosecco Weddings",
+      "alternateName": "Noemi Bressan - Celebrante di Matrimoni",
+      "url": "https://proseccoweddings.it",
+      "inLanguage": ["it", "en", "de", "es"],
+      "publisher": {
+        "@type": "Person",
+        "name": "Noemi Bressan"
+      }
+    }
+  </script>
+
+  <!-- JSON-LD Structured Data: LocalBusiness -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
+      "@id": "https://proseccoweddings.it/#business",
       "name": "Noemi Bressan - Wedding Celebrant",
       "alternateName": "Prosecco Weddings",
       "description": "Cerimonie nuziali uniche e personalizzate sulle Colline del Prosecco e oltre. Celebrante professionista multilingue in italiano, inglese, tedesco e spagnolo.",
       "url": "https://proseccoweddings.it",
-      "image": "https://proseccoweddings.it/hero-bg.jpg",
-      "telephone": "",
+      "image": [
+        "https://proseccoweddings.it/hero-bg.jpg",
+        "https://proseccoweddings.it/images/events/Primavera P.co'25-1.jpg"
+      ],
+      "email": "info.noemi.bressan@gmail.com",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Pieve di Soligo",
         "addressRegion": "Veneto",
+        "postalCode": "31053",
         "addressCountry": "IT"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 45.9000,
+        "longitude": 11.9961
       },
       "areaServed": [
         {
@@ -66,7 +92,7 @@
           "name": "Colline del Prosecco di Conegliano e Valdobbiadene"
         },
         {
-          "@type": "Place",
+          "@type": "AdministrativeArea",
           "name": "Veneto, Italia"
         },
         {
@@ -76,7 +102,37 @@
       ],
       "knowsLanguage": ["it", "en", "de", "es"],
       "priceRange": "$$",
-      "sameAs": [],
+      "sameAs": [
+        "https://instagram.com/noemi_bres",
+        "https://www.facebook.com/share/1BZfjLeqSr/"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "ratingCount": "3",
+        "reviewCount": "3"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Giulia & Denis" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Noemi ha reso il nostro giorno indimenticabile. Ha scritto una cerimonia che parlava davvero di noi, emozionando tutti gli ospiti. La sua dolcezza è impareggiabile."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Sarah & Tom" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "We met Noemi and instantly clicked. She delivered our entire ceremony flawlessly in both Italian and English. Our international guests felt completely involved!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Elena & Roberto" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Un'esperienza fantastica. Ci ha aiutato a preparare tutto, dai documenti alle promesse, con calma e professionalità. Consigliatissima!"
+        }
+      ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Wedding Celebrant Services",
@@ -108,7 +164,129 @@
         ]
       }
     }
-    </script>
+  </script>
+
+  <!-- JSON-LD Structured Data: Person -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "https://proseccoweddings.it/#person",
+      "name": "Noemi Bressan",
+      "jobTitle": "Wedding Celebrant",
+      "url": "https://proseccoweddings.it",
+      "image": "https://proseccoweddings.it/images/events/Primavera P.co'25-1.jpg",
+      "email": "info.noemi.bressan@gmail.com",
+      "description": "Celebrante di matrimoni con sede a Pieve di Soligo, nel cuore delle Colline del Prosecco, Veneto. Specializzata in cerimonie nuziali personalizzate multilingue.",
+      "knowsLanguage": [
+        { "@type": "Language", "name": "Italian", "alternateName": "it" },
+        { "@type": "Language", "name": "English", "alternateName": "en" },
+        { "@type": "Language", "name": "German", "alternateName": "de" },
+        { "@type": "Language", "name": "Spanish", "alternateName": "es" }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Pieve di Soligo",
+        "addressRegion": "Veneto",
+        "addressCountry": "IT"
+      },
+      "sameAs": [
+        "https://instagram.com/noemi_bres",
+        "https://www.facebook.com/share/1BZfjLeqSr/"
+      ],
+      "worksFor": {
+        "@id": "https://proseccoweddings.it/#business"
+      }
+    }
+  </script>
+
+  <!-- JSON-LD Structured Data: FAQPage -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Puoi celebrare matrimoni con valore legale?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì! Sono disponibile a celebrare sia cerimonie simboliche che riti ufficiali con delega civile."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Celebri anche all'estero?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Assolutamente sì. Sono disponibile a spostarmi fuori dal Veneto e fuori dall'Italia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fornisci l'impianto audio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Posso aiutarvi fornendo contatti per impianti audio microfonici professionali o musica registrata extra, dalla cerimonia fino alla festa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Conosci band per musica dal vivo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Certamente! Ho contatti con band locali soprattutto jazz e acustiche."
+          }
+        }
+      ]
+    }
+  </script>
+
+  <!-- JSON-LD Structured Data: BreadcrumbList -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://proseccoweddings.it/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Chi Sono",
+          "item": "https://proseccoweddings.it/#about"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Servizi",
+          "item": "https://proseccoweddings.it/#services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Il Percorso",
+          "item": "https://proseccoweddings.it/#process"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "FAQ",
+          "item": "https://proseccoweddings.it/#faq"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Contatti",
+          "item": "https://proseccoweddings.it/#contact"
+        }
+      ]
+    }
+  </script>
 
   <!-- Noscript fallback for crawlers that don't execute JS -->
   <noscript>
