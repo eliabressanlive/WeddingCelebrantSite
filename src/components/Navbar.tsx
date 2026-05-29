@@ -82,6 +82,7 @@ const Navbar: React.FC = () => {
                       onClick={() => changeLanguage(lang.code)}
                       className={`w-full text-left px-4 py-2 text-sm hover:bg-brand-blush flex items-center space-x-2 ${i18n.language === lang.code ? 'font-bold text-brand-gold' : 'text-brand-charcoal'}`}
                     >
+                      <span className="text-lg">{lang.flag}</span>
                       <span>{lang.label}</span>
                     </button>
                   ))}
