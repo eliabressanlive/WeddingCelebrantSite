@@ -30,10 +30,9 @@ const Navbar: React.FC = () => {
   }, []);
 
   const changeLanguage = (lng: string) => {
-    i18n.changeLanguage(lng);
     trackLanguageChange(lng);
-    setLangMenuOpen(false);
-    setIsOpen(false);
+    const newPath = lng === 'it' ? '/' : `/${lng}/`;
+    window.location.assign(newPath);
   };
 
   return (

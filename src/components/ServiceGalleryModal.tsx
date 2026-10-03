@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay, EffectFade } from 'swiper/modules';
 import { X } from 'lucide-react';
+import OptimizedImage from './OptimizedImage';
 
 // @ts-ignore
 import 'swiper/css';
@@ -97,11 +98,12 @@ const ServiceGalleryModal: React.FC<ServiceGalleryModalProps> = ({
                 {images.map((filename, idx) => (
                   <SwiperSlide key={filename}>
                     <div className="relative w-full aspect-[16/10] bg-black/40 rounded-2xl overflow-hidden flex items-center justify-center">
-                      <img
-                        src={`${import.meta.env.BASE_URL}images/${folder}/${filename}`}
+                      <OptimizedImage
+                        src={`${folder}/${filename}`}
+                        sizes="(min-width: 1088px) 960px, calc(100vw - 64px)"
                         alt={`${title} - Photo ${idx + 1}`}
                         className="w-full h-full object-contain object-center"
-                        loading="lazy"
+                        placeholderFit="contain"
                       />
                     </div>
                   </SwiperSlide>

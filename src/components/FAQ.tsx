@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
 import { useSectionTracking } from '../hooks/useSectionTracking';
 import { trackClick } from '../utils/analytics';
+import OptimizedImage from './OptimizedImage';
 
 const FAQ: React.FC = () => {
   const { t } = useTranslation();
@@ -22,14 +23,14 @@ const FAQ: React.FC = () => {
   return (
     <section ref={sectionRef} id="faq" className="relative py-24 overflow-hidden">
       {/* Light floral background */}
-      <div
-        className="absolute inset-0 z-0 opacity-40"
-        style={{
-          backgroundImage: `url("${import.meta.env.BASE_URL}images/backgrounds/faq-floral.png")`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      />
+      <div className="absolute inset-0 z-0 opacity-40" aria-hidden="true">
+        <OptimizedImage
+          src="backgrounds/faq-floral.png"
+          sizes="100vw"
+          alt=""
+          className="w-full h-full object-cover object-center"
+        />
+      </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">

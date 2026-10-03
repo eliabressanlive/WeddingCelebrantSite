@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import OptimizedImage from './OptimizedImage';
 
 // Import Swiper styles
 // @ts-ignore
@@ -46,8 +47,9 @@ const Slideshow: React.FC = () => {
         >
           {imageFiles.map((filename, idx) => (
             <SwiperSlide key={filename} className="flex justify-center items-center overflow-hidden rounded-2xl shadow-lg border-2 border-emerald-200/60">
-              <img
-                src={`${import.meta.env.BASE_URL}images/weddings/${filename}`}
+              <OptimizedImage
+                src={`weddings/${filename}`}
+                sizes="(min-width: 768px) 750px, 600px"
                 alt={`Photo ${idx}`}
                 className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-500"
               />

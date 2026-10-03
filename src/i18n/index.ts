@@ -13,11 +13,16 @@ const resources = {
   es: { translation: esTranslation },
 };
 
+const pathname = typeof window !== 'undefined' ? window.location.pathname : '/';
+const initialLang = pathname.startsWith('/en') ? 'en' :
+                    pathname.startsWith('/de') ? 'de' :
+                    pathname.startsWith('/es') ? 'es' : 'it';
+
 i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: 'it', // default language
+    lng: initialLang, // default language based on URL
     fallbackLng: 'en',
     interpolation: {
       escapeValue: false, // React already safes from xss

@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Heart, Compass, Mic, Sparkles, Camera } from 'lucide-react';
 import ServiceGalleryModal from './ServiceGalleryModal';
+import OptimizedImage from './OptimizedImage';
 import { useSectionTracking } from '../hooks/useSectionTracking';
 import { trackClick } from '../utils/analytics';
 
@@ -72,8 +73,9 @@ const Services: React.FC = () => {
       <section ref={sectionRef} id="services" className="relative py-24 overflow-hidden">
         {/* ── Background image ── */}
         <div className="absolute inset-0 z-0">
-          <img
-            src={`${import.meta.env.BASE_URL}images/backgrounds/WhatsApp Image 2026-04-24 at 23.26.21.jpeg`}
+          <OptimizedImage
+            src="backgrounds/WhatsApp Image 2026-04-24 at 23.26.21.jpeg"
+            sizes="100vw"
             alt=""
             className="absolute inset-0 w-full h-full object-cover"
           />

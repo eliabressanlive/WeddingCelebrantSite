@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { useSectionTracking } from '../hooks/useSectionTracking';
 import { trackLanguageChange } from '../utils/analytics';
+import OptimizedImage from './OptimizedImage';
 
 const About: React.FC = () => {
   const { t, i18n } = useTranslation();
@@ -22,8 +23,9 @@ const About: React.FC = () => {
             className="relative"
           >
             <div className="aspect-[4/5] overflow-hidden rounded-t-full rounded-bl-full shadow-2xl">
-              <img
-                src={`${import.meta.env.BASE_URL}images/events/Primavera P.co'25-1.jpg`}
+              <OptimizedImage
+                src="events/Primavera P.co'25-1.jpg"
+                sizes="(min-width: 1280px) 1080px, (min-width: 1024px) 85vw, 175vw"
                 alt="Noemi Bressan"
                 className="w-full h-full object-cover"
               />

@@ -63,15 +63,18 @@ WeddingCelebrantSite/
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml          # GitHub Actions CI/CD pipeline
+├── images-src/                 # ORIGINAL full-quality photos (not deployed)
+│   ├── backgrounds/            # Section backgrounds (incl. hero-bg.jpg)
+│   ├── events/                 # Event presenter photo gallery
+│   ├── tour_leader/            # Tour leader photo gallery
+│   └── weddings/               # Wedding ceremony photo gallery
+├── scripts/
+│   └── optimize-images.mjs     # Generates optimized AVIF/WebP/JPEG variants
 ├── public/
 │   ├── CNAME                   # Custom domain config (proseccoweddings.it)
 │   ├── favicon.svg             # Site favicon
-│   ├── hero-bg.jpg             # Hero section background
-│   └── images/
-│       ├── backgrounds/        # Section background images
-│       ├── events/             # Event presenter photo gallery
-│       ├── tour_leader/        # Tour leader photo gallery
-│       └── weddings/           # Wedding ceremony photo gallery
+│   ├── hero-bg.jpg             # Social sharing image (generated)
+│   └── images/                 # Optimized variants (generated, same sub-folders)
 ├── src/
 │   ├── App.tsx                 # Root component — section layout
 │   ├── App.css                 # Custom CSS & brand design tokens
@@ -225,14 +228,23 @@ Typography combines **Playfair Display** (serif, headings) with **Lato** (sans-s
 
 ## Image Assets
 
-Photo galleries are organized in `public/images/`:
+Original photos live in `images-src/` and are **never deployed**. A one-shot script (`sharp`) turns them into web-ready files in `public/images/`:
 
 | Directory | Content |
 |-----------|---------|
 | `weddings/` | Wedding ceremony photos for the main slideshow |
 | `events/` | Event presenter & formal occasion photos |
 | `tour_leader/` | Prosecco Hills tour leader photos |
-| `backgrounds/` | Section background images |
+| `backgrounds/` | Section background images (incl. `hero-bg.jpg`) |
+
+For every photo the script generates **AVIF + WebP + JPEG** (PNG if transparent) in widths `480 / 768 / 1280 / 1920` (never upscaled, EXIF-rotated, metadata stripped), plus a tiny blurred placeholder. Components render them through `src/components/OptimizedImage.tsx` (`<picture>` + `srcset` + native lazy-loading); the hero is preloaded with high priority from `index.html`.
+
+### Adding or replacing a photo
+
+1. Drop the original (any size) into the right `images-src/` sub-folder.
+2. Run `npm run images` (add `-- --force` to regenerate everything).
+3. Reference it by its original path, e.g. `<OptimizedImage src="weddings/my-photo.jpg" sizes="…" alt="…" />`, or add the file name to the lists in `Slideshow.tsx` / `Services.tsx`.
+4. Commit `images-src/`, `public/images/`, `public/hero-bg.jpg`, `index.html` and `src/data/images.generated.ts`.
 
 ---
 

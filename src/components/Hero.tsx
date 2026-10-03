@@ -4,6 +4,8 @@ import { Link } from 'react-scroll';
 import { motion } from 'framer-motion';
 import { useSectionTracking } from '../hooks/useSectionTracking';
 import { trackClick } from '../utils/analytics';
+import OptimizedImage from './OptimizedImage';
+import { PRELOAD_IMAGE } from '../data/images.generated';
 
 const Hero: React.FC = () => {
   const { t } = useTranslation();
@@ -14,16 +16,20 @@ const Hero: React.FC = () => {
       <div
         className="
             absolute inset-0 
-            bg-cover 
-            bg-no-repeat
-            bg-[position:center_calc(50%-160px)]
             scale-[1.24] 
-            max-[1500px]:bg-[position:center_calc(50%-110px)]
             max-[1500px]:scale-[1.40]"
-        style={{
-          backgroundImage: `url("${import.meta.env.BASE_URL}hero-bg.jpg")`
-        }}
       >
+        <OptimizedImage
+          src={PRELOAD_IMAGE.key}
+          sizes={PRELOAD_IMAGE.sizes}
+          alt=""
+          priority
+          className="
+            absolute inset-0 w-full h-full
+            object-cover
+            [object-position:center_calc(50%-160px)]
+            max-[1500px]:[object-position:center_calc(50%-110px)]"
+        />
         <div className="absolute inset-0 bg-brand-charcoal/40" /> {/* Dark Overlay */}
       </div>
 
